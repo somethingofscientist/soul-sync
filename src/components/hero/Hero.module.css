@@ -55,6 +55,12 @@
     color: var(--soulsync-blue);
 }
 
+.sign img {
+    width: 38% !important;
+    text-align: left !important;
+    /* position: absolute; */
+}
+
 .sub_heading {
     color: var(--soulsync-grey);
     font-size: 24px;
@@ -68,6 +74,13 @@
     border-radius: 10px;
     width: max-content;
     background-color: var(--soulsync-orange);
+    border: 1px solid var(--soulsync-orange);
+}
+.start_journey:hover{
+    cursor: pointer;
+    background-color: white;
+    color: var(--soulsync-orange);
+    border: 1px solid var(--soulsync-orange);
 }
 
 .right {

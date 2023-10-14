@@ -28,8 +28,13 @@ const Hero = () => {
 
               <div className={styles.match_making}>
                 <div className={styles.match_making1}>Matchmaking </div>
-                <div className={styles.match_making2}>Redefined </div>
-                {/* <img src={sign} alt="" /> */}
+                <div className={styles.match_making2}>
+                  Redefined
+                </div>
+                <div className={styles.sign}>
+                  <img src={sign} alt="" />
+                </div>
+
 
                 <div className={styles.sub_heading}>
                   Say Hello to what matters to you

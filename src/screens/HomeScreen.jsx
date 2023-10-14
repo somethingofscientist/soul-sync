@@ -16,7 +16,6 @@ const HomeScreen = () => {
             <Steps4 />
             <Service />
             <Footer />
-
             {/* <Sample /> */}
         </>
     )

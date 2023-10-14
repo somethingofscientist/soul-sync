@@ -30,6 +30,11 @@
     font-weight: 700;
     padding: 20px 150px;
 }
+.start:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.583);
+    color: white;
+}
 
 .footer {
     display: flex;
