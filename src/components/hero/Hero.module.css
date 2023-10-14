@@ -1,0 +1,118 @@
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 150px 0;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: red; */
+}
+
+.left {
+    width: 40%;
+    position: relative !important;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading .sparkle {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.heading .logo img {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.heading .circle {
+    position: absolute;
+    right: 30%;
+    top: 10%;
+}
+
+.match_making {
+    display: flex;
+    flex-direction: column;
+}
+
+.match_making1 {
+    font-size: 32px;
+    padding: 50px 0 0 0;
+    font-weight: 700;
+    color: var(--soulsync-blue);
+}
+
+.match_making2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--soulsync-blue);
+}
+
+.sub_heading {
+    color: var(--soulsync-grey);
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.start_journey {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: max-content;
+    background-color: var(--soulsync-orange);
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    position: relative;
+    /* background-color: red; */
+}
+
+.woman_img {
+    position: relative !important;
+    /* top: 200px; */
+    /* right: 300px; */
+}
+
+.man_img {
+    position: absolute !important;
+    top: 0px;
+    left: 250px;
+    z-index: 9;
+}
+
+.star_img {
+    position: absolute !important;
+    top: -10px;
+    left: -20px;
+}
+
+.circle_img {
+    position: absolute !important;
+    bottom: -50px;
+    left: 30%;
+}
+
+.rope_img {
+    position: absolute !important;
+    top: 50px;
+    left: 540px;
+}
+
+
+/* .sparkle img,
+.circle img, */
+.circle_img img,
+.woman_img img,
+.man_img img {
+    width: 100%;
+}

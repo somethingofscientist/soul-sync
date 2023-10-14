@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Inter:wght@400;600&family=Libre+Baskerville&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans';
+  letter-spacing: 2px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --soulsync-grey: #696984;
+  --soulsync-orange: #F1B637;
+  --soulsync-blue: #090F4E;
+
+}

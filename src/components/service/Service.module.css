@@ -1,0 +1,111 @@
+.container {
+    width: 90%;
+    margin: auto;
+    /* padding: 50px 0; */
+    /* background-color: red; */
+}
+
+.heading {
+    /* background-color: pink; */
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.heading>.left {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--soulsync-blue);
+    width: max-content;
+}
+
+.heading>.right {
+    border: 1px solid var(--soulsync-orange);
+    width: 300px;
+    margin-left: 20px;
+}
+
+
+.service_container {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    /* justify-content: center; */
+    /* background-color: rgb(226, 244, 255); */
+}
+
+.service_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 5px solid var(--soulsync-orange);
+    border-radius: 100%;
+    padding: 100px;
+    width: 500px;
+    z-index: 2;
+    position: relative;
+    color: var(--soulsync-grey);
+}
+
+.service_circle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 5px solid var(--soulsync-orange);
+    border-radius: 100%;
+    padding: 100px;
+    width: 500px;
+    z-index: 1;
+    background-color: var(--soulsync-orange);
+    color: white;
+    position: relative;
+}
+
+.service_circle .img_section img {
+    width: 100%;
+}
+
+.txt_section {
+    font-size: 20px;
+    width: 200%;
+    /* backgroun/d-color: red; */
+    font-weight: bold;
+}
+
+
+
+.sub_container {
+    margin: auto;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: palegoldenrod; */
+}
+
+.left {
+    width: 35%;
+    font-weight: 700;
+    text-align: left;
+    font-size: 52px;
+    color: var(--soulsync-orange);
+}
+
+.left img {
+    padding: 50px 0;
+    width: 65%;
+}
+
+.right {
+    width: 50%;
+    /* border: 1px solid lime; */
+    text-align: center;
+}
+
+.right img {
+    width: 50%;
+}
