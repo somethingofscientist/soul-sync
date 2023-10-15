@@ -133,7 +133,6 @@
 
 
 @media (max-width: 576px) {
-<<<<<<< HEAD
     .container {
         width: 90%;
         margin: auto;
@@ -194,16 +193,5 @@
         display: block;
         /* background-color: red; */
     }
-=======
-    /* .container {
-        width: 90%;
-        margin: auto;
-        padding: 150px 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        background-color: red;
-    } */
->>>>>>> 4ced7df316a55bfb9b9e39c14fbad708a068cdab
 
 }

@@ -9,7 +9,7 @@ import Steps4 from '../components/4Steps/Steps4'
 const HomeScreen = () => {
     return (
         <>
-            {/* <Hero /> */}
+            <Hero />
             <About />
             <ProblemSolution />
             <Steps4 />
