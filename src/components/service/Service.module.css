@@ -191,6 +191,8 @@
     .circle4 {
         width: 1000px !important;
         position: relative;
+        height: 350px;
+        margin-bottom: 20px;
         /* background-color: rgb(10, 5, 5); */
     }
 

@@ -28,6 +28,9 @@
     margin: auto;
     padding: 50px 0;
 }
+.sub_container_mobile{
+    display: none;
+}
 
 .animation {
     display: flex;
@@ -55,5 +58,13 @@
     .right_animation {
         font-size: 18px;
     }
+
+    .sub_container {
+        display: none;
+    }
+    .sub_container_mobile{
+        display: block;
+    }
+    
 
 }
