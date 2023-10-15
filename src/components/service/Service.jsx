@@ -65,7 +65,7 @@ const Service = () => {
                         Sneak peak of what is in store for you
                         <img src={google} alt="" />
                     </div>
-                    <Slide right cascade>
+                    <Slide left cascade>
                         <div className={styles.right}>
                             <img src={phone} alt="" />
                         </div>

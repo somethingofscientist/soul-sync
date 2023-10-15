@@ -49,9 +49,6 @@ const Hero = () => {
               <img src={circle} alt="" />
             </div>
           </div>
-
-
-
         </div>
 
 

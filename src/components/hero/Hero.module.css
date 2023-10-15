@@ -133,6 +133,68 @@
 
 
 @media (max-width: 576px) {
+<<<<<<< HEAD
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 100px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+
+    .left {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        position: relative !important;
+    }
+
+    .start_journey {
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        width: max-content;
+        margin: auto;
+        background-color: var(--soulsync-orange);
+        border: 1px solid var(--soulsync-orange);
+    }
+
+    .right {
+        width: 100%;
+        display: flex;
+        padding-top: 100px;
+        flex-wrap: wrap;
+        /* display: none; */
+        /* background-color: red; */
+        /* border: 1px solid pink; */
+    }
+
+    .right .star_img,
+    .right .woman_img,
+    .right .rope_img,
+    .right .circle_img,
+    .right .man_img {
+        position: relative !important;
+        /* display: none; */
+        left: 0;
+        margin: auto;
+    }
+
+    .right .rope_img {
+        display: none;
+    }
+
+    .circle_img img,
+    .woman_img img,
+    .man_img img {
+        width: 100%;
+        display: block;
+        /* background-color: red; */
+    }
+=======
     /* .container {
         width: 90%;
         margin: auto;
@@ -142,5 +204,6 @@
         justify-content: space-between;
         background-color: red;
     } */
+>>>>>>> 4ced7df316a55bfb9b9e39c14fbad708a068cdab
 
 }
