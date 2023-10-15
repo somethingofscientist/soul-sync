@@ -84,3 +84,50 @@
     font-weight: 400;
     letter-spacing: 0 !important;
 }
+
+@media (max-width: 576px) {
+
+
+    .heading {
+        /* background-color: pink; */
+        padding: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .heading>.right {
+        border: 1px solid var(--soulsync-orange);
+        width: 0px;
+        display: none;
+        margin-left: 20px;
+    }
+
+    .step_section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line_year {
+        display: none;
+    }
+
+    .first_section {
+        width: 100%;
+    }
+
+    .section_img {
+        width: 65%;
+    }
+
+    .sub_heading1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .sub_heading2 {
+        font-size: 20px;
+        width: 80%;
+    }
+}

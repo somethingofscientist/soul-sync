@@ -76,7 +76,8 @@
     background-color: var(--soulsync-orange);
     border: 1px solid var(--soulsync-orange);
 }
-.start_journey:hover{
+
+.start_journey:hover {
     cursor: pointer;
     background-color: white;
     color: var(--soulsync-orange);
@@ -128,4 +129,18 @@
 .woman_img img,
 .man_img img {
     width: 100%;
+}
+
+
+@media (max-width: 576px) {
+    /* .container {
+        width: 90%;
+        margin: auto;
+        padding: 150px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: red;
+    } */
+
 }

@@ -1,9 +1,17 @@
 import React from 'react'
+
+
 import styles from './Footer.module.css';
 import soulSync_logo from '../../Images/logo.png'
 import facebook from '../../Images/facebook.png'
+import instagram from '../../Images/insta-logo.png'
+import whatsapp from '../../Images/whatsapp.png'
+
 
 const Footer = () => {
+    const phoneNumber = '8920892992';
+    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+
     return (
         <>
             <div className={styles.container}>
@@ -22,7 +30,13 @@ const Footer = () => {
                     <div className={styles.right}>
                         <p>follow Us On</p>
                         <div className={styles.icon}>
-                            <img src={facebook} alt="" />
+
+                            <a href="https://www.facebook.com/"><img src={facebook} alt="" /></a>
+                            <a href="https://www.instagram.com"><img src={instagram} alt="" /></a>
+                            <a href={whatsappUrl}>
+                                <img src={whatsapp} alt="WhatsApp" />
+                            </a>
+
                         </div>
                     </div>
                 </div>

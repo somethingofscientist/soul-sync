@@ -115,3 +115,27 @@
     border-radius: 10%;
     background-color: var(--soulsync-orange);
 }
+
+
+@media (max-width:576px) {
+    
+    .container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container .solution,
+    .container .problem {
+        width: 90%;
+        display: flex;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .icon {
+        width: 15%;
+    }
+}

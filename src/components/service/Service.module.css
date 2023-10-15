@@ -109,3 +109,215 @@
 .right img {
     width: 50%;
 }
+
+/* SERVICE CIRCLES */
+.container1 {
+    width: 100%;
+    margin: auto;
+    position: relative !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: 100ms ease-in-out;
+    /* background-c/olor: pink; */
+    /* margin-left: -50px; */
+    /* border: 1px solid red; */
+}
+
+.container1_left,
+.container1_right {
+    position: relative !important;
+    display: flex !important;
+    width: 50%;
+    /* background-color: red !important; */
+    /* background-color: rgb(91, 187, 74); */
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+    position: relative;
+    border: 6px solid var(--soulsync-orange);
+    background-color: rgb(255, 255, 255);
+    color: var(--soulsync-grey);
+    text-align: center;
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle2 {
+    position: absolute !important;
+    z-index: 1;
+    left: 350px;
+    color: white;
+    background-color: var(--soulsync-orange);
+}
+
+.circle4 {
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    color: white;
+    background-color: var(--soulsync-orange);
+}
+
+
+@media (max-width:576px) {
+
+
+    /* SERVICE CIRCLES */
+
+    .container1_left,
+    .container1_right {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+
+
+    .circle1,
+    .circle2,
+    .circle3,
+    .circle4 {
+        width: 1000px !important;
+        position: relative;
+        /* background-color: rgb(10, 5, 5); */
+    }
+
+    .circle2 {
+        position: relative !important;
+        z-index: 1;
+        left: 0px;
+        color: white;
+        background-color: var(--soulsync-orange);
+    }
+
+    .circle4 {
+        position: relative;
+        z-index: 1;
+        left: 0px;
+        color: white;
+        background-color: var(--soulsync-orange);
+    }
+
+
+    .container {
+        width: 90%;
+        margin: auto;
+        /* padding: 50px 0; */
+        /* background-color: red; */
+    }
+
+    .heading {
+        /* background-color: pink; */
+        padding: 50px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .heading>.left {
+        font-size: 40px;
+        font-weight: 700;
+        color: var(--soulsync-blue);
+        width: max-content;
+    }
+
+    .heading>.right {
+        border: 1px solid var(--soulsync-orange);
+        width: 300px;
+        margin-left: 20px;
+    }
+
+
+    .service_container {
+        display: flex;
+        align-items: center;
+        padding: 50px 0;
+        /* justify-content: center; */
+        /* background-color: rgb(226, 244, 255); */
+    }
+
+    .service_circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        border: 5px solid var(--soulsync-orange);
+        border-radius: 100%;
+        padding: 100px;
+        width: 500px;
+        z-index: 2;
+        position: relative;
+        color: var(--soulsync-grey);
+    }
+
+    .service_circle2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        border: 5px solid var(--soulsync-orange);
+        border-radius: 100%;
+        padding: 100px;
+        width: 500px;
+        z-index: 1;
+        background-color: var(--soulsync-orange);
+        color: white;
+        position: relative;
+    }
+
+    .service_circle .img_section img {
+        width: 100%;
+    }
+
+    .txt_section {
+        font-size: 20px;
+        width: 200%;
+        /* backgroun/d-color: red; */
+        font-weight: bold;
+    }
+
+
+
+    .sub_container {
+        margin: auto;
+        padding: 70px 0;
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: palegoldenrod; */
+    }
+
+    .left {
+        width: 100%;
+        font-weight: 700;
+        text-align: left;
+        font-size: 45px;
+        color: var(--soulsync-orange);
+    }
+
+    .left img {
+        padding: 50px 0;
+        width: 90%;
+    }
+
+    .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right img {
+        width: 90%;
+    }
+}

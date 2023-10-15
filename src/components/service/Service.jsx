@@ -7,6 +7,8 @@ import google from '../../Images/google.png'
 import star from '../../Images/StarFour.png'
 import better from '../../Images/better.png'
 import lower from '../../Images/lower.png'
+import assess from '../../Images/assess.png';
+import high from '../../Images/hgh.png'
 
 const Service = () => {
     return (
@@ -33,46 +35,29 @@ const Service = () => {
 
 
                 {/* SERVICE SECTION */}
-                <div className={styles.service_container}>
-
-                    <div className={styles.service_circle}>
-                        <div className={styles.img_section}>
+                <div className={styles.container1}>
+                    <div className={styles.container1_left}>
+                        <div className={styles.circle1}>
                             <img src={better} alt="" />
+                            <p> Better Match Rates</p>
                         </div>
-                        <div className={styles.txt_section}>
-                            Better Match Rates
-                        </div>
-                    </div>
-
-                    <div className={styles.service_circle2}>
-                        <div className={styles.img_section}>
+                        <div className={styles.circle2}>
                             <img src={lower} alt="" />
-                        </div>
-                        <div className={styles.txt_section}>
-                            Better Match Rates
+                            <p>Lower search time & cost</p>
                         </div>
                     </div>
-
-                    <div className={styles.service_circle}>
-                        <div className={styles.img_section}>
-                            <img src={better} alt="" />
+                    <div className={styles.container1_right}>
+                        <div className={styles.circle3}>
+                            <img src={high} alt="" />
+                            <p>High quality options</p>
                         </div>
-                        <div className={styles.txt_section}>
-                            Better Match Rates
-                        </div>
-                    </div>
-
-                    <div className={styles.service_circle2}>
-                        <div className={styles.img_section}>
-                            <img src={lower} alt="" />
-                        </div>
-                        <div className={styles.txt_section}>
-                            Better Match Rates
+                        <div className={styles.circle4}>
+                            <img src={assess} alt="" />
+                            <p>Assess matches better</p>
                         </div>
                     </div>
-
                 </div>
-                
+
 
                 {/* PHONE SECTION */}
                 <div className={styles.sub_container}>
