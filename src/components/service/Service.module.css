@@ -188,11 +188,78 @@
     background-color: var(--soulsync-orange);
 }
 
-.container1_phone{
+.container1_phone {
     display: none;
 }
 
 
+@media (max-width:1440px) {
+    .container1 {
+        width: 100%;
+        margin: auto;
+        position: relative !important;
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        transition: 100ms ease-in-out;
+        /* background-color: rgb(237, 242, 255); */
+    }
+
+    .container1_left,
+    .container1_right {
+        position: relative !important;
+        display: flex !important;
+        width: 49%;
+        /* background-color: red !important; */
+        /* background-color: rgb(91, 187, 74); */
+    }
+
+
+
+    .circle1,
+    .circle2,
+    .circle3,
+    .circle4 {
+        position: relative;
+        border: 3px solid var(--soulsync-orange);
+        background-color: rgb(255, 255, 255);
+        color: var(--soulsync-grey);
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        z-index: 2;
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle2 {
+        position: absolute !important;
+        z-index: 1;
+        left: 270px;
+        color: white;
+        background-color: var(--soulsync-orange);
+        padding: 0 50px;
+    }
+
+    .circle4 {
+        position: absolute;
+        z-index: 1;
+        padding: 0 50px;
+        left: 260px;
+        color: white;
+        background-color: var(--soulsync-orange);
+    }
+
+    .sub_container .left {
+        font-size: 40px;
+    }
+
+}
 
 @media (max-width:576px) {
 
@@ -255,14 +322,15 @@
     .circle4_phone {
         position: absolute;
         z-index: 1;
-        left:175px;
+        left: 175px;
         color: white;
         background-color: var(--soulsync-orange);
     }
+
     .circle1_phone p,
     .circle2_phone p,
     .circle3_phone p,
-    .circle4_phone p{
+    .circle4_phone p {
         padding: 10px 20px;
     }
 
@@ -278,7 +346,7 @@
 
     .heading {
         /* background-color: pink; */
-        padding: 50px 0 ;
+        padding: 50px 0;
         display: flex;
         align-items: center;
     }

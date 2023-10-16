@@ -43,7 +43,6 @@ const Steps4 = () => {
           <img src={line} alt="" />
         </div>
 
-        {/* <div className={styles.line_year}></div> */}
 
         <div className={styles.first_section}>
           <div className={styles.section_img}>
@@ -60,7 +59,6 @@ const Steps4 = () => {
           </div>
         </div>
 
-        {/* <div className={styles.line_year}></div> */}
 
         <div className={styles.first_section}>
           <div className={styles.section_img}>
@@ -77,7 +75,6 @@ const Steps4 = () => {
           </div>
         </div>
 
-        {/* <div className={styles.line_year}></div> */}
 
         <div className={styles.first_section}
           style={{
@@ -98,7 +95,6 @@ const Steps4 = () => {
           </div>
         </div>
 
-        {/* <div className={styles.line_year}></div> */}
 
         <div className={styles.first_section}>
           <div className={styles.section_img}>
@@ -116,7 +112,6 @@ const Steps4 = () => {
           </div>
         </div>
 
-        {/* <div className={styles.line_year}></div> */}
 
 
       </div>

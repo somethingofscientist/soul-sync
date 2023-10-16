@@ -90,6 +90,39 @@
 }
 
 
+@media (max-width:1440px) {
+    .right {
+        /* width: 30%; */
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .icon {
+        width: 20%;
+        display: flex;
+        /* justify-content: end; */
+        /* align-items: end; */
+    }
+
+    .icon a {
+        width: 90%;
+        margin-right: 20px;
+    }
+
+    .icon a img {
+        /* width: 10%; */
+        /* background-color: red; */
+        display: block;
+    }
+
+    .right p {
+        padding: 20px 0;
+        font-size: 12px;
+    }
+}
+
 @media (max-width:576px) {
 
     .start_journey {
