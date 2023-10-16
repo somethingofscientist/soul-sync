@@ -5,6 +5,7 @@ import Service from '../components/service/Service'
 import Hero from '../components/hero/Hero'
 import ProblemSolution from '../components/problemSolution/ProblemSolution'
 import Steps4 from '../components/4Steps/Steps4'
+import Sample from '../components/sample/Sample'
 
 const HomeScreen = () => {
     return (
@@ -15,6 +16,8 @@ const HomeScreen = () => {
             <Steps4 />
             <Service />
             <Footer />
+
+            {/* <Sample /> */}
         </>
     )
 }

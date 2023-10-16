@@ -39,8 +39,11 @@ const Steps4 = () => {
 
       {/* STEPS SECTION */}
       <div className={styles.step_section}>
+        <div className={styles.big_line}>
+          <img src={line} alt="" />
+        </div>
 
-        <div className={styles.line_year}></div>
+        {/* <div className={styles.line_year}></div> */}
 
         <div className={styles.first_section}>
           <div className={styles.section_img}>
@@ -57,7 +60,7 @@ const Steps4 = () => {
           </div>
         </div>
 
-        <div className={styles.line_year}></div>
+        {/* <div className={styles.line_year}></div> */}
 
         <div className={styles.first_section}>
           <div className={styles.section_img}>
@@ -74,9 +77,13 @@ const Steps4 = () => {
           </div>
         </div>
 
-        <div className={styles.line_year}></div>
+        {/* <div className={styles.line_year}></div> */}
 
-        <div className={styles.first_section}>
+        <div className={styles.first_section}
+          style={{
+            marginTop: '11px'
+          }}
+        >
           <div className={styles.section_img}>
             <img
               src={matches}
@@ -91,7 +98,7 @@ const Steps4 = () => {
           </div>
         </div>
 
-        <div className={styles.line_year}></div>
+        {/* <div className={styles.line_year}></div> */}
 
         <div className={styles.first_section}>
           <div className={styles.section_img}>
@@ -100,7 +107,7 @@ const Steps4 = () => {
               alt=""
             />
           </div>
-          
+
           <div className={styles.sub_heading1}>
             Get connected
           </div>
@@ -109,7 +116,7 @@ const Steps4 = () => {
           </div>
         </div>
 
-        <div className={styles.line_year}></div>
+        {/* <div className={styles.line_year}></div> */}
 
 
       </div>

@@ -6,7 +6,8 @@
   box-sizing: border-box;
   font-family: 'DM Sans';
   letter-spacing: 2px;
-  transition: 200ms ease-in-out
+  transition: 200ms ease-in-out;
+  text-decoration: none;
 }
 
 body {

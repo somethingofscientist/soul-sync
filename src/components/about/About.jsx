@@ -22,7 +22,7 @@ const About = () => {
 
 
                 <div className={styles.sub_container}>
-                    <Slide right cascade >
+                    <Slide right  >
                         <div className={styles.animation}>
                             <div className={styles.left_animation}>
                                 <img src={heart_icon} alt="" />
@@ -32,7 +32,7 @@ const About = () => {
                             </div>
                         </div>
                     </Slide>
-                    <Slide left cascade>
+                    <Slide left >
                         <div
                             className={styles.animation}
                             style={{ justifyContent: "end" }}
@@ -48,7 +48,7 @@ const About = () => {
                             </div>
                         </div>
                     </Slide>
-                    <Slide right cascade >
+                    <Slide right  >
                         <div className={styles.animation}>
                             <div className={styles.left_animation}>
                                 <img src={ring_icon} alt="" />

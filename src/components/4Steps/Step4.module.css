@@ -33,6 +33,11 @@
     justify-content: space-evenly;
     /* border-top: 1px solid red; */
     padding: 20px 0 100px 0;
+    /* background-image: url('../../Images/Line.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 100px;
+    z-index: 0 !important; */
 }
 
 .line_year {
@@ -41,6 +46,18 @@
     height: 2px;
     margin-bottom: 100px;
     z-index: 99;
+}
+
+.big_line {
+    position: absolute;
+    width: 100%;
+    margin-bottom: 130px;
+    z-index: -9 !important;
+}
+
+.big_line img {
+    width: 100%;
+    /* z-index: -9 !important; */
 }
 
 .first_section {
@@ -56,15 +73,20 @@
 
 .section_img {
     width: 65%;
-    z-index: -9;
-    /* background-color: red; */
+    z-index: 9 !important;
+}
+
+.section_img img {
+    z-index: 99 !important;
+    width: 100%;
+    /* background-color: rgb(32, 24, 24) !important; */
 }
 
 .first_section img {
     width: 100%;
-    z-index: -9;
+    z-index: 9;
     display: block;
-    /* background-color: pink; */
+    /* background-color: rgb(255, 255, 255); */
 }
 
 .sub_heading1 {
@@ -73,6 +95,8 @@
     font-weight: 700;
     padding-bottom: 20px;
     letter-spacing: 0 !important;
+    /* margin-top: 10px;
+    background-color: red; */
 }
 
 .sub_heading2 {
@@ -87,18 +111,30 @@
 
 @media (max-width: 576px) {
 
+    .big_line{
+        display: none;
+    }
 
     .heading {
-        /* background-color: pink; */
-        padding: 50px 0;
+        padding: 50px 0 0 0;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
     }
 
+    .heading>.left {
+        letter-spacing: 0;
+        font-size: 24px;
+        width: 70% !important;
+        font-weight: 700;
+        color: var(--soulsync-blue);
+        width: max-content;
+    }
+
+
     .heading>.right {
         border: 1px solid var(--soulsync-orange);
-        width: 0px;
+        width: 100px;
         display: none;
         margin-left: 20px;
     }
@@ -107,7 +143,9 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        padding: 20px 0 0px 0;
     }
+    
 
     .line_year {
         display: none;
@@ -115,6 +153,15 @@
 
     .first_section {
         width: 100%;
+    }
+
+    .sub_heading1 {
+        font-size: 20px !important;
+    }
+
+    .sub_heading2 {
+        font-size: 16px !important;
+        padding: 0 20px;
     }
 
     .section_img {

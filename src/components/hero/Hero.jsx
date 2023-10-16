@@ -9,6 +9,7 @@ import circle from '../../Images/circle.png';
 import man from '../../Images/boy.png';
 import woman from '../../Images/girl.png';
 import sign from '../../Images/sign.png';
+import grp from '../../Images/grp1.jpg';
 
 
 const Hero = () => {
@@ -39,9 +40,13 @@ const Hero = () => {
                 <div className={styles.sub_heading}>
                   Say Hello to what matters to you
                 </div>
-                <div className={styles.start_journey}>
-                  Start Your Journey Now
-                </div>
+
+                <a href="https://thesoulsync.com/start/">
+                  <div className={styles.start_journey}>
+                    Start Your Journey Now
+                  </div>
+                </a>
+
               </div>
             </div>
 
@@ -69,6 +74,9 @@ const Hero = () => {
           </div>
           <div className={styles.rope_img}>
             <img src={rope} alt="" />
+          </div>
+          <div className={styles.grp_img}>
+            <img src={grp} alt="" />
           </div>
 
 

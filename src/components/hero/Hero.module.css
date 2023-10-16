@@ -132,31 +132,57 @@
 }
 
 
+.grp_img {
+    display: none !important;
+}
+
+
+
 @media (max-width: 576px) {
     .container {
         width: 90%;
         margin: auto;
-        padding: 100px 0;
+        padding: 100px 0 0 0;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        /* justify-content: center; */
         /* border: 1px solid red; */
     }
 
     .left {
         width: 100%;
-        text-align: center;
-        margin: auto;
+        /* text-align: center; */
+        /* margin: auto; */
         position: relative !important;
     }
 
+    .sub_heading {
+        letter-spacing: 0;
+        color: var(--soulsync-grey);
+        font-size: 18px;
+        padding: 20px 0;
+    }
+
+    .match_making2,
+    .match_making1 {
+        letter-spacing: 0;
+        font-size: 42px;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+
     .start_journey {
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         padding: 20px;
         border-radius: 10px;
         width: max-content;
-        margin: auto;
+        /* margin: auto; */
         background-color: var(--soulsync-orange);
         border: 1px solid var(--soulsync-orange);
     }
@@ -165,7 +191,7 @@
         width: 100%;
         display: flex;
         padding-top: 100px;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         /* display: none; */
         /* background-color: red; */
         /* border: 1px solid pink; */
@@ -177,21 +203,34 @@
     .right .circle_img,
     .right .man_img {
         position: relative !important;
-        /* display: none; */
         left: 0;
-        margin: auto;
     }
 
-    .right .rope_img {
-        display: none;
-    }
-
+    .right .rope_img,
+    .sparkle,
+    .star_img,
     .circle_img img,
     .woman_img img,
     .man_img img {
         width: 100%;
         display: block;
+        display: none;
         /* background-color: red; */
     }
 
+    .sign img {
+        width: 70% !important;
+        text-align: left !important;
+        /* position: absolute; */
+    }
+
+    .grp_img {
+        width: 100%;
+        display: block !important;
+    }
+
+    .grp_img img {
+        width: 100%;
+        display: block;
+    }
 }

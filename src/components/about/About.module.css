@@ -28,7 +28,8 @@
     margin: auto;
     padding: 50px 0;
 }
-.sub_container_mobile{
+
+.sub_container_mobile {
     display: none;
 }
 
@@ -55,16 +56,34 @@
 
 @media (max-width: 576px) {
 
+    .left {
+        font-size: 24px;
+        font-weight: 700;
+        width: 70%;
+        /* background-color: red; */
+    }
+    .right{
+        width: 40%;
+    }
+
+    .animation{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
     .right_animation {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 20px;
     }
 
     .sub_container {
         display: none;
     }
-    .sub_container_mobile{
+
+    .sub_container_mobile {
         display: block;
     }
-    
+
 
 }
