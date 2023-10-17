@@ -74,7 +74,7 @@ const About = () => {
                             </div>
                         </div>
                     </Slide>
-                    <Slide right >
+                    <Slide left >
                         <div
                             className={styles.animation}
                             style={{ justifyContent: "end" }}
