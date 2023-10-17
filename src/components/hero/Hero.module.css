@@ -1,80 +1,69 @@
-.container {
-    width: 90%;
-    margin: auto;
-    padding: 150px 0;
+.container_web {
+    width: 100%;
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    /* background-color: red; */
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
 }
 
-.left {
-    width: 40%;
+.middle_web {
+    width: 30%;
+    text-align: center;
     position: relative !important;
 }
 
-.heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.heading .sparkle {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.heading .logo img {
-    width: 60%;
-    margin: auto;
-    text-align: center;
-}
-
-.heading .circle {
-    position: absolute;
-    right: 30%;
-    top: 10%;
+.middle_web .logo img {
+    width: 50%;
 }
 
 .match_making {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin: auto;
 }
 
 .match_making1 {
     font-size: 32px;
-    padding: 50px 0 0 0;
+    padding-top: 40px;
     font-weight: 700;
+    letter-spacing: 0;
+    text-align: center !important;
     color: var(--soulsync-blue);
 }
 
-.match_making2 {
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--soulsync-blue);
+.sign {
+    width: 100%;
+    margin-left: 50px;
+    text-align: left !important;
 }
 
 .sign img {
-    width: 38% !important;
-    text-align: left !important;
-    /* position: absolute; */
+    width: 40% !important;
 }
 
 .sub_heading {
     color: var(--soulsync-grey);
     font-size: 24px;
     padding: 20px 0;
+    display: flex;
+    letter-spacing: -1px;
+
+    text-align: center !important;
+    margin: auto;
 }
 
 .start_journey {
     color: white;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 20px !important;
+    padding: 20px 20px;
     border-radius: 10px;
     width: max-content;
+    letter-spacing: 0;
     background-color: var(--soulsync-orange);
     border: 1px solid var(--soulsync-orange);
+    margin: 50px auto 0 auto;
 }
 
 .start_journey:hover {
@@ -84,153 +73,126 @@
     border: 1px solid var(--soulsync-orange);
 }
 
-.right {
-    width: 50%;
-    display: flex;
-    position: relative;
-    /* background-color: red; */
+.middle_web .sparkle {
+    position: absolute;
+    right: 0;
 }
 
-.woman_img {
-    position: relative !important;
-    /* top: 200px; */
-    /* right: 300px; */
+.middle_web .circle {
+    position: absolute;
+    right: 0;
+    top: 70%;
 }
 
-.man_img {
-    position: absolute !important;
-    top: 0px;
-    left: 250px;
-    z-index: 9;
+.middle_web .circle_two {
+    position: absolute;
+    left: 0;
+    top: 20%;
 }
 
-.star_img {
-    position: absolute !important;
-    top: -10px;
-    left: -20px;
-}
-
-.circle_img {
-    position: absolute !important;
-    bottom: -50px;
-    left: 30%;
-}
-
-.rope_img {
-    position: absolute !important;
-    top: 50px;
-    left: 540px;
-}
-
-
-/* .sparkle img,
-.circle img, */
-.circle_img img,
-.woman_img img,
-.man_img img {
+.middle_web .sparkle img,
+.middle_web .circle img {
     width: 100%;
 }
 
+.right_web,
+.left_web {
+    width: 30%;
+    position: relative !important;
+    text-align: center !important;
+}
 
-.grp_img {
-    display: none !important;
+.right_web .boy,
+.left_web .girl {
+    position: relative;
+    z-index: 9;
+}
+
+.left_web .rope {
+    position: absolute !important;
+    /* background-color: rgb(255, 114, 114); */
+    top: 50%;
+    left: 0;
+}
+
+.right_web .rope {
+    position: absolute !important;
+    /* background-color: aqua; */
+    top: 50%;
+    right: 0;
 }
 
 
+.rope img {
+    width: 100%;
+    z-index: -9 !important;
+}
+
+.grp_img {
+    display: none;
+}
+
 
 @media (max-width: 576px) {
-    .container {
-        width: 90%;
-        margin: auto;
-        padding: 100px 0 0 0;
-        display: flex;
+    .container_web {
         flex-wrap: wrap;
-        /* justify-content: center; */
-        /* border: 1px solid red; */
+        width: 100%;
+        padding: 50px 10px;
     }
 
-    .left {
+    .middle_web {
         width: 100%;
-        /* text-align: center; */
-        /* margin: auto; */
+        text-align: left;
         position: relative !important;
     }
 
-    .sub_heading {
-        letter-spacing: 0;
-        color: var(--soulsync-grey);
-        font-size: 18px;
-        padding: 20px 0;
+    .middle_web .logo img {
+        width: 40%;
     }
 
-    .match_making2,
     .match_making1 {
-        letter-spacing: 0;
-        font-size: 42px;
+        font-size: 40px;
+        text-align: left !important;
     }
 
-    .heading {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-
-
-    .start_journey {
-        color: white;
-        font-size: 18px;
-        padding: 20px;
-        border-radius: 10px;
-        width: max-content;
-        /* margin: auto; */
-        background-color: var(--soulsync-orange);
-        border: 1px solid var(--soulsync-orange);
-    }
-
-    .right {
-        width: 100%;
-        display: flex;
-        padding-top: 100px;
-        /* flex-wrap: wrap; */
-        /* display: none; */
-        /* background-color: red; */
-        /* border: 1px solid pink; */
-    }
-
-    .right .star_img,
-    .right .woman_img,
-    .right .rope_img,
-    .right .circle_img,
-    .right .man_img {
-        position: relative !important;
-        left: 0;
-    }
-
-    .right .rope_img,
-    .sparkle,
-    .star_img,
-    .circle_img img,
-    .woman_img img,
-    .man_img img {
-        width: 100%;
-        display: block;
-        display: none;
-        /* background-color: red; */
+    .sign {
+        width: 50%;
+        position: relative;
+        margin-left: 0;
     }
 
     .sign img {
-        width: 70% !important;
-        text-align: left !important;
-        /* position: absolute; */
+        width: 100% !important;
+    }
+
+    .start_journey {
+        margin-left: 0;
+    }
+
+    .sub_heading {
+        /* width: 370px; */
     }
 
     .grp_img {
-        width: 100%;
-        display: block !important;
+        display: block;
+        margin-top: 50px;
     }
 
     .grp_img img {
         width: 100%;
-        display: block;
     }
+
+
+    .middle_web .sparkle,
+    .middle_web .circle,
+    .right_web .boy,
+    .left_web .girl,
+    .left_web .rope,
+    .right_web .rope,
+    .rope img,
+    .middle_web .circle_two {
+        display: none;
+    }
+
+
 }
