@@ -85,7 +85,7 @@ const ProblemSolution = () => {
           </div>
         </div>
 
-
+        {/* SOLUTION */}
         <div className={styles.solution}>
 
           {/* HEADING */}
@@ -157,6 +157,7 @@ const ProblemSolution = () => {
 
 
         </div>
+
       </div>
     </>
   )

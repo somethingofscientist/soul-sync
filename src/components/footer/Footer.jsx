@@ -41,7 +41,6 @@ const Footer = () => {
                             <a href={whatsappUrl}>
                                 <img src={whatsapp} alt="WhatsApp" />
                             </a>
-
                         </div>
                     </div>
                 </div>

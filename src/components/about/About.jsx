@@ -20,7 +20,7 @@ const About = () => {
                 </div>
 
 
-
+                {/* WEB CONTAINER */}
                 <div className={styles.sub_container}>
                     <Slide right  >
                         <div className={styles.animation}>
@@ -59,8 +59,12 @@ const About = () => {
                         </div>
                     </Slide>
                 </div>
+
+
+                {/* MOBILE  */}
                 <div className={styles.sub_container_mobile}>
-                    <Slide left cascade >
+
+                    <Slide left  >
                         <div className={styles.animation}>
                             <div className={styles.left_animation}>
                                 <img src={heart_icon} alt="" />
@@ -70,13 +74,15 @@ const About = () => {
                             </div>
                         </div>
                     </Slide>
-                    <Slide left cascade>
+                    <Slide right >
                         <div
                             className={styles.animation}
                             style={{ justifyContent: "end" }}
                         >
                             <div className={styles.left_animation}>
-                                <img src={dual_heart_icon} alt="" />
+                                <div className={styles.right_mobile}>
+                                    <img src={dual_heart_icon} alt="" />
+                                </div>
                             </div>
                             <div
                                 className={styles.right_animation}
@@ -86,7 +92,7 @@ const About = () => {
                             </div>
                         </div>
                     </Slide>
-                    <Slide left cascade >
+                    <Slide left  >
                         <div className={styles.animation}>
                             <div className={styles.left_animation}>
                                 <img src={ring_icon} alt="" />
@@ -96,8 +102,8 @@ const About = () => {
                             </div>
                         </div>
                     </Slide>
-                </div>
 
+                </div>
             </div>
         </>
     )

@@ -174,4 +174,9 @@
     .section_img {
         width: 65%;
     }
+    .section_img img{
+        padding-top: 40px;
+        width: 80%;
+        margin: auto;
+    }
 }

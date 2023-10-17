@@ -68,7 +68,7 @@ const Service = () => {
                         </div>
                         <div className={styles.circle2_phone}>
                             <img src={lower} alt="" />
-                            <p>Lower search time & cost</p>
+                            <p>Lower search <br /> time & cost</p>
                         </div>
                     </div>
                     <div className={styles.container1_right_phone}>
@@ -100,6 +100,9 @@ const Service = () => {
                             </div>
                         </div>
                     </Slide>
+                    <div className={styles.right_mobile}>
+                        <img src={google} alt="" />
+                    </div>
                 </div>
 
             </div>

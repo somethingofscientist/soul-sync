@@ -37,7 +37,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    color: #696984;
+    color: var(--soulsync-grey);
     margin-bottom: 50px;
     /* background-color: pink; */
 }
@@ -59,16 +59,21 @@
     .left {
         font-size: 24px;
         font-weight: 700;
-        width: 70%;
-        /* background-color: red; */
-    }
-    .right{
-        width: 40%;
+        width: 100%;
     }
 
-    .animation{
+    .right {
+        width: 50%;
+    }
+
+    .animation {
         display: flex;
         flex-wrap: nowrap;
+    }
+
+    .animation .left_animation img {
+        /* width: 40%; */
+        /* background-color: red; */
     }
 
     .right_animation {
@@ -85,5 +90,21 @@
         display: block;
     }
 
+    .sub_container_mobile .animation .left_animation {
+        /* background-color: red; */
+        margin: auto !important;
+        text-align: center;
+        width: 20%;
+    }
+
+    .sub_container_mobile .animation {
+        display: flex;
+    }
+
+    .right_mobile {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
 
 }

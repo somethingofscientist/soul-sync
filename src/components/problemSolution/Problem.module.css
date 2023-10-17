@@ -162,6 +162,7 @@
         font-size: 12px;
         letter-spacing: 0;
         font-weight: 400;
+        padding: 20px 0 ;
     }
 
     .problem .heading .left,
@@ -170,4 +171,17 @@
         font-size: 24px;
         letter-spacing: 0;
     }
+
+    .solution .box {
+        display: flex;
+        flex-direction: row-reverse;
+        /* background-color: red; */
+        margin-top: 20px;
+    }
+
+    .solution .box .txt {
+        width: 80%;
+        text-align: left;
+    }
+
 }
