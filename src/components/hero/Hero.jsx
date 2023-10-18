@@ -14,6 +14,7 @@ import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
 
+  const [loading, setLoading] = useState(false);
   const [embedded, setEmbedded] = useState(false);
 
   const embedContent = () => {
@@ -77,11 +78,22 @@ const Hero = () => {
                 />
                 matters to you
               </div>
-              <button
-                onClick={embedContent}
-                className={styles.start_journey}>
-                Start Your Journey Now
-              </button>
+              {loading ?
+                (
+                  <div className={styles.loading}>
+                    <div className={styles.loading1}>
+
+                    </div>
+                  </div>
+                ) :
+                (
+                  <button
+                    onClick={embedContent}
+                    className={styles.start_journey}>
+                    Start Your Journey Now
+                  </button>
+                )
+              }
             </div>
           </div>
 

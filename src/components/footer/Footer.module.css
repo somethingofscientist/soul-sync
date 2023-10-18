@@ -160,9 +160,10 @@ button{
     .matchmaking {
         font-weight: 700;
         letter-spacing: 0;
-        font-size: 14px;
+        font-size: 12px;
         padding: 10px 0 40px 0;
-        /* background-color: red;    */
+        /* background-color: red; */
+        /* width: 50%;    */
         color: var(--soulsync-blue);
     }
 
@@ -202,6 +203,7 @@ button{
         font-size: 12px;
         margin-top: 20px;
         letter-spacing: 0;
+        /* background-color: red; */
     }
 
 }

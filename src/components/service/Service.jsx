@@ -25,7 +25,7 @@ const Service = () => {
                 {/* HEADING SECTION */}
                 <div className={styles.heading}>
                     <div className={styles.left}>
-                        Our service proposition
+                        Your Benefits
                     </div>
                     <div className={styles.right}>
                     </div>
@@ -50,13 +50,13 @@ const Service = () => {
                         </div>
                         <div className={styles.circle2}>
                             <img src={lower} alt="" />
-                            <p>Lower search time & cost</p>
+                            <p>Lower search costs</p>
                         </div>
                     </div>
                     <div className={styles.container1_right}>
                         <div className={styles.circle3}>
                             <img src={high} alt="" />
-                            <p>High quality options</p>
+                            <p>Lower search time</p>
                         </div>
                         {/* <div className={styles.circle4}>
                             <img src={assess} alt="" />
@@ -76,13 +76,13 @@ const Service = () => {
                         </div>
                         <div className={styles.circle2_phone}>
                             <img src={lower} alt="" />
-                            <p>Lower search <br /> time & cost</p>
+                            <p>Lower search costs</p>
                         </div>
                     </div>
                     <div className={styles.container1_right_phone}>
                         <div className={styles.circle3_phone}>
                             <img src={high} alt="" />
-                            <p>High quality options</p>
+                            <p>Lower search time</p>
                         </div>
                         {/* <div className={styles.circle4_phone}>
                             <img src={assess} alt="" />

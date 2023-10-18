@@ -4,7 +4,8 @@ import styles from './Problem.module.css';
 import understanding from '../../Images/understand.png'
 import random from '../../Images/random.png'
 import dull from '../../Images/dull.png'
-import poor_service from '../../Images/poor_service.png'
+import poor_service from '../../Images/poor.png'
+import lack from '../../Images/poor_service.png'
 import setting from '../../Images/setting.png'
 import data from '../../Images/data.png'
 import seamless from '../../Images/seamless.png'
@@ -65,7 +66,7 @@ const ProblemSolution = () => {
                 Dull Bio-data's
               </div>
               <div className={styles.subheading2}>
-                Text heavy documents that doesn’t reflect critical information or personality of an individual results in suboptimal information to decide interest levels
+                Text heavy documents that doesn’t reflect critical information or personality of an individual results in limited information to decide interest levels
               </div>
             </div>
           </div>
@@ -85,7 +86,7 @@ const ProblemSolution = () => {
           </div>
           <div className={styles.box}>
             <div className={styles.icon}>
-              <img src={poor_service} alt="" />
+              <img src={lack} alt="" />
             </div>
             <div className={styles.orange_line}></div>
             <div className={styles.txt}>
