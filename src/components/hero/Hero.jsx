@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../../Images/header_logo.png';
 import rope from '../../Images/rope.png';
 import star from '../../Images/StarFour.png';
@@ -14,7 +14,21 @@ import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
 
-  // CTA embed code is: <div data-paperform-id="soulsync" data-takeover="1"></div><script>(function() { var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js";document.body.appendChild(script); })()</script> 
+  const [embedded, setEmbedded] = useState(false);
+
+  const embedContent = () => {
+    const script = document.createElement('script');
+    script.src = 'https://paperform.co/__embed.min.js';
+    script.async = true;
+
+    const div = document.createElement('div');
+    div.setAttribute('data-paperform-id', 'soulsync');
+    div.setAttribute('data-takeover', '1');
+
+    document.body.appendChild(div);
+    document.body.appendChild(script);
+    setEmbedded(true);
+  };
 
 
 
@@ -63,11 +77,11 @@ const Hero = () => {
                 />
                 matters to you
               </div>
-              <a href="https://thesoulsync.com/start/">
-                <div className={styles.start_journey}>
-                  Start Your Journey Now
-                </div>
-              </a>
+              <button
+                onClick={embedContent}
+                className={styles.start_journey}>
+                Start Your Journey Now
+              </button>
             </div>
           </div>
 

@@ -20,6 +20,10 @@
     color: var(--soulsync-blue);
 }
 
+button{
+    border: none;
+}
+
 .start {
     border-radius: 40px;
     background-color: white;
