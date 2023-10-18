@@ -37,8 +37,9 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    color: var(--soulsync-grey);
+    color: var(--soulsync-blue);
     margin-bottom: 50px;
+    /* font-weight: 700; */
     /* background-color: pink; */
 }
 
