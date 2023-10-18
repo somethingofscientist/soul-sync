@@ -21,7 +21,7 @@ const ProblemSolution = () => {
           {/* HEADING */}
           <div className={styles.heading}>
             <div className={styles.left}>
-              Problems
+              Current Problems
             </div>
             <div className={styles.right}></div>
           </div>
@@ -83,6 +83,21 @@ const ProblemSolution = () => {
               </div>
             </div>
           </div>
+          <div className={styles.box}>
+            <div className={styles.icon}>
+              <img src={poor_service} alt="" />
+            </div>
+            <div className={styles.orange_line}></div>
+            <div className={styles.txt}>
+              <div className={styles.subheading1}>
+                Lack of relevant profiles
+              </div>
+              <div className={styles.subheading2}>
+                Traditional bureaus have limited profiles leading to forced compromise of your preferences
+              </div>
+            </div>
+          </div>
+
         </div>
 
         {/* SOLUTION */}
@@ -92,7 +107,7 @@ const ProblemSolution = () => {
           <div className={styles.heading}>
             <div className={styles.right}></div>
             <div className={styles.left}>
-              Solutions
+              Our Solutions
             </div>
           </div>
 
@@ -100,7 +115,7 @@ const ProblemSolution = () => {
           <div className={styles.box}>
             <div className={styles.txt}>
               <div className={styles.subheading1}>
-                In-depth understanding of your preferences
+                In-depth and holistic understanding of your preferences
               </div>
               <div className={styles.subheading2}>
                 15 partner preference parameters are taken to ensure a holistic approach is adopted towards your partner search
@@ -114,10 +129,10 @@ const ProblemSolution = () => {
           <div className={styles.box}>
             <div className={styles.txt}>
               <div className={styles.subheading1}>
-                Connections based on Data
+                Curated connections powered by data
               </div>
               <div className={styles.subheading2}>
-                Profile recommendations are completely data driven & curated basis your partner preference inputs. We prioritize profile recommendation basis potential match rates
+                Profile recommendations are completely data driven & curated basis your partner preference inputs. We prioritize profile recommendation basis potential  sync rates
               </div>
             </div>
             <div className={styles.orange_line}></div>
@@ -128,10 +143,10 @@ const ProblemSolution = () => {
           <div className={styles.box}>
             <div className={styles.txt}>
               <div className={styles.subheading1}>
-                Seamless online profiles with video
+                Seamless online profiles with video snippets
               </div>
               <div className={styles.subheading2}>
-                Get to know your potential matches better through our innovative easy-to consume video profiles
+                Get to know your potential matches better with our innovative, easy to consume individual profile pages with a video snippet.
               </div>
             </div>
             <div className={styles.orange_line}></div>
@@ -145,7 +160,7 @@ const ProblemSolution = () => {
                 Superior Service Levels
               </div>
               <div className={styles.subheading2}>
-                Continuous feedback and review meetings with your SoulSyncer for Superior Service Levels
+                Conversational guidance, continuous feedback, review sessions and much more
               </div>
             </div>
             <div className={styles.orange_line}></div>
@@ -153,7 +168,20 @@ const ProblemSolution = () => {
               <img src={service_level} alt="" />
             </div>
           </div>
-
+          <div className={styles.box}>
+            <div className={styles.txt}>
+              <div className={styles.subheading1}>
+                Numerous high quality and verified profiles
+              </div>
+              <div className={styles.subheading2}>
+                Targeted clientele onboarded to ensure an exceptional network
+              </div>
+            </div>
+            <div className={styles.orange_line}></div>
+            <div className={styles.icon}>
+              <img src={service_level} alt="" />
+            </div>
+          </div>
 
 
         </div>

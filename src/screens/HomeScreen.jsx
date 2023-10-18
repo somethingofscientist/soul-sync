@@ -13,10 +13,10 @@ const HomeScreen = () => {
             <Hero />
             <About />
             <ProblemSolution />
-            <Steps4 />
             <Service />
             <Footer />
 
+            {/* <Steps4 /> */}
             {/* <Sample /> */}
         </>
     )

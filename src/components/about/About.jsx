@@ -28,6 +28,7 @@ const About = () => {
                                 <img src={heart_icon} alt="" />
                             </div>
                             <div className={styles.right_animation}>
+                                We are your trusted partner in finding you your soulmate.
                                 SoulSync is out to disrupt the traditional arranged marriage matchmaking industry
                             </div>
                         </div>
@@ -70,6 +71,7 @@ const About = () => {
                                 <img src={heart_icon} alt="" />
                             </div>
                             <div className={styles.right_animation}>
+                                We are your trusted partner in finding you your soulmate.
                                 SoulSync is out to disrupt the traditional arranged marriage matchmaking industry
                             </div>
                         </div>

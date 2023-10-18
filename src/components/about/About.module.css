@@ -45,7 +45,9 @@
 .right_animation {
     width: 80%;
     line-height: 42px;
-    font-size: 27px;
+    font-size: 24px !important;
+    letter-spacing: 0;
+    /* background-color: red; */
 }
 
 .animation .left_animation img {
@@ -77,9 +79,11 @@
     }
 
     .right_animation {
-        font-size: 16px;
+        font-size: 16px !important;
         letter-spacing: 0;
-        line-height: 20px;
+        line-height: 20.83px;
+        text-align: left;
+        /* background-color: red; */
     }
 
     .sub_container {
