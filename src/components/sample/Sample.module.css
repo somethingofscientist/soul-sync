@@ -56,6 +56,7 @@
     border-radius: 100%;
     position: relative;
     z-index: 99 !important;
+    background-color: white;
 }
 
 .circle2 {
@@ -140,7 +141,17 @@
 }
 
 
-@media (max-width:1440px) {}
+@media (max-width:1440px) {
+    .circle1 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .circle2 {
+        width: 250px;
+        height: 250px;
+    }
+}
 
 @media (max-width:576px) {
 

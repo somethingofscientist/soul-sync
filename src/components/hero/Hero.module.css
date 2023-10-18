@@ -105,6 +105,7 @@
     letter-spacing: 0;
     text-align: center !important;
     color: var(--soulsync-blue);
+    /* background-color: red; */
 }
 
 .sign {
@@ -114,7 +115,7 @@
 }
 
 .sign img {
-    width: 40% !important;
+    width: 75% !important;
 }
 
 .sub_heading {
@@ -123,9 +124,10 @@
     padding: 20px 0;
     display: flex;
     letter-spacing: -1px;
-
+    /* background-color: red; */
     text-align: center !important;
     margin: auto;
+    /* width: 600px; */
 }
 
 .start_journey {

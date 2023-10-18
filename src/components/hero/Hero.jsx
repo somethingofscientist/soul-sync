@@ -71,12 +71,12 @@ const Hero = () => {
                 &nbsp;
                 <Typewriter
                   options={{
-                    strings: ['How', 'Why', 'What'],
+                    strings: ['matters to you', 'your curated matches', 'your future soulmate'],
                     autoStart: true,
                     loop: true,
                   }}
                 />
-                matters to you
+                
               </div>
               {loading ?
                 (
