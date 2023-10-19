@@ -21,7 +21,8 @@
 .problem {
     font-weight: 700;
     font-size: 40px;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    /* background-color: red; */
 }
 
 .container .solution {
@@ -132,7 +133,30 @@
         /* background-color: red !important; */
         width: 320px;
     }
-    .container .solution .heading .left{
+
+    .container .solution .heading .left {
+        width: 250px;
+        /* background-color: aqua !important; */
+    }
+
+    .container .solution .heading .right,
+    .container .problem .heading .right {
+        width: 280px !important;
+    }
+}
+
+@media (max-width:1366px) {
+
+    .container .solution .heading .left,
+    .container .problem .heading .left {
+        font-weight: 700;
+        font-size: 40px !important;
+        /* background-color: red !important; */
+        width: 400px;
+        /* background-color: red; */
+    }
+
+    .container .solution .heading .left {
         width: 250px;
         /* background-color: aqua !important; */
     }

@@ -112,7 +112,7 @@
         margin-top: 0px;
     }
 
-    .first_section .section_img  {
+    .first_section .section_img {
         width: 100%;
         z-index: 9;
         display: block;
@@ -125,8 +125,25 @@
         color: var(--soulsync-blue);
         width: max-content;
     }
+}
+
+@media (max-width:1336px) {
+
+    .heading>.left {
+        font-size: 34px;
+        font-weight: 700;
+        color: var(--soulsync-blue);
+        width: max-content;
+    }
+    
+    .heading>.right {
+        border: 1px solid var(--soulsync-orange);
+        width: 200px;
+        margin-left: 20px;
+    }
 
 }
+
 
 @media (max-width: 576px) {
 
