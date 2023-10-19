@@ -8,6 +8,7 @@ import boy from '../../Images/boy.png';
 import girl from '../../Images/girl.png';
 import sign from '../../Images/sign.png';
 import grp from '../../Images/grp1.jpg';
+import tagline_line from '../../Images/svg/tagline_line.svg';
 import styles from './Hero.module.css';
 
 import Typewriter from 'typewriter-effect';
@@ -64,19 +65,17 @@ const Hero = () => {
                 Matchmaking Redefined
               </div>
               <div className={styles.sign}>
-                <img src={sign} alt="" />
+                <img src={tagline_line} alt="" />
               </div>
-              <div className={styles.sub_heading}>
-                Say Hello to
-                &nbsp;
+              <div className={styles.sub_heading} >
+                <span style={{ padding: " 0 5px" }} >Say Hello to </span>
                 <Typewriter
                   options={{
-                    strings: ['matters to you', 'your curated matches', 'your future soulmate'],
+                    strings: [' what matters to you', ' your curated matches', ' your future soulmate'],
                     autoStart: true,
                     loop: true,
                   }}
                 />
-                
               </div>
               {loading ?
                 (

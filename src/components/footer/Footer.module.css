@@ -6,40 +6,52 @@
 
 .orange_container {
     border-radius: 30px;
-    padding: 100px 0;
+    padding: 150px 0;
     text-align: center;
     background-color: var(--soulsync-orange);
     background-image: url('../../Images/Mask\ Group.png');
 }
 
+button {
+    border: none;
+    background-color: transparent;
+}
+
+
 .start_journey {
     font-size: 40px;
     text-transform: capitalize;
     font-weight: 700;
-    padding-bottom: 50px;
     color: var(--soulsync-blue);
-}
-
-button{
-    border: none;
-}
-
-.start {
-    border-radius: 40px;
     background-color: white;
-    color: black;
+    width: max-content;
+    margin: auto;
+    font-weight: 700;
+    padding: 35px 100px;
+    border-radius: 20px !important;
+}
+
+.start_journey:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.508);
+    color: white;
+}
+
+/* .start {
+    border-radius: 20px;
+    background-color: white;
     width: max-content;
     margin: auto;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 150px;
+    padding: 50px 100px;
 }
 
 .start:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.583);
-    color: white;
-}
+    color: white !important;
+} */
 
 .footer {
     display: flex;
@@ -51,16 +63,33 @@ button{
 }
 
 .footer .left img {
-    width: 70%;
+    width: 100%;
 }
 
 .matchmaking {
     font-weight: 700;
     font-size: 24px;
-    padding: 40px 0;
-    /* background-color: red; */
     color: var(--soulsync-blue);
 }
+
+.match_making1 {
+    font-size: 24px;
+    padding-top: 10px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center !important;
+    color: var(--soulsync-blue);
+}
+
+.sign {
+    width: 100%;
+    text-align: left !important;
+}
+
+.sign img {
+    width: 50% !important;
+}
+
 
 .right {
     width: 50%;
@@ -70,7 +99,6 @@ button{
     justify-content: end;
     align-items: end;
     flex-direction: column;
-    /* background-color: pink; */
 }
 
 .icon {
@@ -84,8 +112,6 @@ button{
 }
 
 .icon img {
-    /* width: 100%; */
-    /* margin-right: 20px; */
     display: block;
 }
 
@@ -96,47 +122,46 @@ button{
 
 @media (max-width:1440px) {
     .right {
-        /* width: 30%; */
+        width: 50%;
+        text-transform: capitalize;
+        font-size: 18px;
         display: flex;
         justify-content: end;
-        align-items: center;
-        padding-bottom: 50px;
+        align-items: end;
+        flex-direction: column;
     }
-
+    
     .icon {
         width: 20%;
         display: flex;
-        /* justify-content: end; */
-        /* align-items: end; */
     }
-
+    
     .icon a {
-        width: 90%;
+        width: 100%;
         margin-right: 20px;
     }
-
-    .icon a img {
-        /* width: 10%; */
-        /* background-color: red; */
+    
+    .icon img {
         display: block;
     }
-
+    
     .right p {
         padding: 20px 0;
-        font-size: 12px;
     }
+    
 }
 
 @media (max-width:576px) {
 
     .start_journey {
-        font-size: 40px;
         letter-spacing: 0;
         text-transform: capitalize;
         font-weight: 700;
-        padding-bottom: 20px;
-        font-size: 18px;
+        padding: 0;
+        /* background-color: red;    */
         color: var(--soulsync-blue);
+        font-size: 18px;
+        padding: 20px 40px;
     }
 
     .start {
@@ -206,4 +231,31 @@ button{
         /* background-color: red; */
     }
 
+
+
+    
+    .footer .left img {
+        width: 70%;
+    }
+    .matchmaking {
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--soulsync-blue);
+    }
+    
+    .match_making1 {
+        font-size: 16px;
+        padding-top:0px;
+        text-align: left !important;
+    }
+    
+    .sign {
+        width: 100%;
+        text-align: left !important;
+    }
+    
+    .sign img {
+        width: 50% !important;
+    }
+    
 }

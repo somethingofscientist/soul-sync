@@ -41,22 +41,7 @@ const Sample = () => {
 
 
             {/* SERVICE SECTION */}
-            <div className={styles.main_container}>
-                <div className={styles.middle_container}>
-                    <div className={styles.circle1}>
-                        <img src={better} alt="" />
-                        <p> Better Match Rates</p>
-                    </div>
-                    <div className={styles.circle2}>
-                        <img src={lower} alt="" />
-                        <p>Lower search <br /> Costs</p>
-                    </div>
-                    <div className={styles.circle1}>
-                        <img src={high} alt="" />
-                        <p>Lower search <br /> Time</p>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     )
 }

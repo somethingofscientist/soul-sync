@@ -25,55 +25,132 @@
     margin-left: 20px;
 }
 
-
-.service_container {
-    display: flex;
-    align-items: center;
-    padding: 50px 0;
-    /* justify-content: center; */
-    /* background-color: rgb(226, 244, 255); */
-}
-
-.service_circle {
+/* SERVICE CIRCLES */
+.main_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    flex-direction: column;
-    border: 5px solid var(--soulsync-orange);
-    border-radius: 100%;
-    padding: 100px;
-    width: 500px;
-    z-index: 2;
-    position: relative;
-    color: var(--soulsync-grey);
-}
-
-.service_circle2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    border: 5px solid var(--soulsync-orange);
-    border-radius: 100%;
-    padding: 100px;
-    width: 500px;
-    z-index: 1;
-    background-color: var(--soulsync-orange);
-    color: white;
-    position: relative;
-}
-
-.service_circle .img_section img {
     width: 100%;
+    /* background-color: aqua; */
 }
 
-.txt_section {
-    font-size: 20px;
-    width: 200%;
-    /* backgroun/d-color: red; */
+.middle_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
     font-weight: bold;
+    color: var(--soulsync-grey);
+    /* background-color: rgb(241, 113, 113); */
+}
+
+.circle1 {
+    /* background-color: lime; */
+    width: 300px;
+    border: 2px solid var(--soulsync-orange);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100%;
+    position: relative;
+    z-index: 99 !important;
+    background-color: white;
+}
+
+.circle2 {
+    z-index: 1 !important;
+    position: absolute;
+    background-color: var(--soulsync-orange);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100%;
+    color: white;
+}
+
+.circle1 p,
+.circle2 p {
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.container1_phone {
+    display: none;
+}
+
+.sub_container {
+    margin: auto;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: palegoldenrod; */
+}
+
+.left {
+    width: 35%;
+    font-weight: 700;
+    text-align: left;
+    font-size: 52px;
+    color: var(--soulsync-orange);
+}
+
+.left img {
+    padding: 50px 0;
+    width: 65%;
+}
+
+.right {
+    width: 50%;
+    /* border: 1px solid lime; */
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.phone,
+.background {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+}
+
+.right .phone img {
+    width: 40% !important;
+    z-index: 9;
+    margin: auto;
+}
+
+.right .background img {
+    width: 50%;
+    z-index: 1;
+    margin: auto;
+}
+
+.sub_container .right_mobile {
+    position: relative;
+    display: none;
+}
+
+
+@media (max-width:1440px) {
+    .circle1 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .circle2 {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 
@@ -128,144 +205,21 @@
     margin: auto;
 }
 
-/* SERVICE CIRCLES */
-.container1 {
-    width: 100%;
-    margin: auto;
-    position: relative !important;
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    transition: 100ms ease-in-out;
-    /* background-c/olor: pink; */
-    /* margin-left: -50px; */
-    /* border: 1px solid red; */
-}
-
-.container1_left,
-.container1_right {
-    position: relative !important;
-    display: flex !important;
-    /* width: ; */
-    /* background-color: red !important; */
-    /* background-color: rgb(91, 187, 74); */
-}
-
-.circle1,
-.circle2,
-.circle3,
-.circle4 {
-    position: relative;
-    border: 6px solid var(--soulsync-orange);
-    background-color: rgb(255, 255, 255);
-    color: var(--soulsync-grey);
-    text-align: center;
-    width: 375px;
-    height: 375px;
-    border-radius: 50%;
-    z-index: 2;
-    font-size: 20px;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.circle2 {
-    position: absolute !important;
-    z-index: 1;
-    left: 350px;
-    color: white;
-    background-color: var(--soulsync-orange);
-}
-
-.circle4 {
-    position: absolute;
-    z-index: 1;
-    left: 350px;
-    color: white;
-    background-color: var(--soulsync-orange);
-}
-
-.container1_phone {
-    display: none;
-}
-
-.sub_container .right_mobile {
-    position: relative;
-    display: none;
-}
-
 
 @media (max-width:1440px) {
-    .container1 {
-        width: 100%;
-        margin: auto;
-        position: relative !important;
-        display: flex !important;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        transition: 100ms ease-in-out;
-        /* background-color: rgb(237, 242, 255); */
-    }
-
-    .container1_left,
-    .container1_right {
-        position: relative !important;
-        display: flex !important;
-        /* width: 49%; */
-        /* background-color: red !important; */
-        /* background-color: rgb(91, 187, 74); */
-    }
-
-
-
-    .circle1,
-    .circle2,
-    .circle3,
-    .circle4 {
-        position: relative;
-        border: 3px solid var(--soulsync-orange);
-        background-color: rgb(255, 255, 255);
-        color: var(--soulsync-grey);
-        text-align: center;
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        z-index: 2;
-        font-size: 20px;
-        font-weight: 700;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .circle3{
-        left: -20px;
-        /* background-color: red; */
+    .circle1 {
+        width: 250px;
+        height: 250px;
     }
 
     .circle2 {
-        position: absolute !important;
-        z-index: 1;
-        left: 270px;
-        color: white;
-        background-color: var(--soulsync-orange);
-        padding: 0 50px;
-    }
-
-    .circle4 {
-        position: absolute;
-        z-index: 1;
-        padding: 0 50px;
-        left: 260px;
-        color: white;
-        background-color: var(--soulsync-orange);
+        width: 250px;
+        height: 250px;
     }
 
     .sub_container .left {
-        font-size: 40px;
+        /* height: 300px; */
+        width: 600px;
     }
 
     .sub_container .right_mobile {
@@ -280,6 +234,7 @@
     /* SERVICE CIRCLES */
     .container1,
     .container1_left,
+    .main_container,
     .container1_right {
         display: none !important;
     }

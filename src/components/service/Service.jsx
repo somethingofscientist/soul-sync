@@ -42,32 +42,26 @@ const Service = () => {
 
 
                 {/* SERVICE SECTION */}
-                <div className={styles.container1}>
-                    <div className={styles.container1_left}>
+                <div className={styles.main_container}>
+                    <div className={styles.middle_container}>
                         <div className={styles.circle1}>
                             <img src={better} alt="" />
                             <p> Better Match Rates</p>
                         </div>
                         <div className={styles.circle2}>
                             <img src={lower} alt="" />
-                            <p>Lower search costs</p>
+                            <p>Lower search <br /> Costs</p>
                         </div>
-                    </div>
-                    <div className={styles.container1_right}>
-                        <div className={styles.circle3}>
+                        <div className={styles.circle1}>
                             <img src={high} alt="" />
-                            <p>Lower search time</p>
+                            <p>Lower search <br /> Time</p>
                         </div>
-                        {/* <div className={styles.circle4}>
-                            <img src={assess} alt="" />
-                            <p>Assess matches better</p>
-                        </div> */}
                     </div>
                 </div>
 
 
 
-                {/* SERVICE PHONE CONTAINER */}
+                {/* <---------------- SERVICE PHONE CONTAINER VIEW --------------> */}
                 <div className={styles.container1_phone}>
                     <div className={styles.container1_left_phone}>
                         <div className={styles.circle1_phone}>
@@ -84,12 +78,9 @@ const Service = () => {
                             <img src={high} alt="" />
                             <p>Lower search time</p>
                         </div>
-                        {/* <div className={styles.circle4_phone}>
-                            <img src={assess} alt="" />
-                            <p>Assess matches better</p>
-                        </div> */}
                     </div>
                 </div>
+
 
                 {/* 4 STEPS CONTIANER MOVED IN AFTER CLIENT CR POINTS */}
                 <Steps4 />

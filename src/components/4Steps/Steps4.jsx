@@ -17,6 +17,7 @@ const Steps4 = () => {
   return (
     <>
       <div className={styles.container}>
+
         {/* HEADING SECTION */}
         <div className={styles.heading}>
           <div className={styles.left}>
@@ -55,7 +56,7 @@ const Steps4 = () => {
             Getting to know you
           </div>
           <div className={styles.sub_heading2}>
-            Start your onboarding journey with a short 5 min about you and your needs
+            Start your onboarding journey with a short 5 min form about you and your needs
           </div>
         </div>
 
@@ -76,11 +77,7 @@ const Steps4 = () => {
         </div>
 
 
-        <div className={styles.first_section}
-          style={{
-            marginTop: '11px'
-          }}
-        >
+        <div className={styles.first_section} >
           <div className={styles.section_img}>
             <img
               src={matches}

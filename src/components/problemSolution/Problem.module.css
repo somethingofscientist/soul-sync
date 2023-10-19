@@ -38,6 +38,7 @@
     /* background-color: pink; */
     padding: 50px 0;
     display: flex;
+    color: var(--soulsync-blue);
     align-items: center;
 }
 
@@ -98,6 +99,8 @@
     font-size: 24px;
     font-weight: 700;
     color: var(--soulsync-blue);
+    height: 50px;
+    /* background-color: red; */
 }
 
 .problem .subheading2,
@@ -107,6 +110,7 @@
     letter-spacing: 0;
     font-weight: 400;
     color: var(--soulsync-black);
+    height: 100px;
 }
 
 .orange_line {
@@ -123,13 +127,17 @@
     .container .problem .heading .left {
         font-weight: 700;
         font-size: 40px !important;
-        /* background-color: red; */
-        width: 150px;
+        /* background-color: red !important; */
+        width: 320px;
+    }
+    .container .solution .heading .left{
+        width: 250px;
+        /* background-color: aqua !important; */
     }
 
+    .container .solution .heading .right,
     .container .problem .heading .right {
-        /* background-color: red !important; */
-        /* color: pink; */
+        width: 280px !important;
     }
 }
 

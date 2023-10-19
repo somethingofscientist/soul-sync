@@ -6,6 +6,7 @@ import soulSync_logo from '../../Images/logo.png'
 import facebook from '../../Images/facebook.png'
 import instagram from '../../Images/insta-logo.png'
 import whatsapp from '../../Images/whatsapp.png'
+import tagline_line from '../../Images/svg/tagline_line.svg'
 
 
 const Footer = () => {
@@ -34,23 +35,24 @@ const Footer = () => {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.orange_container}>
-                    <div className={styles.start_journey}>Start your journey now !</div>
 
+                <div className={styles.orange_container}>
                     <button
                         onClick={embedContent}
-                        className={styles.start}
+                    // className={styles.start}
                     >
-                        Start
+                        <div className={styles.start_journey}>Start your journey now !</div>
                     </button>
-
                 </div>
 
                 <div className={styles.footer}>
                     <div className={styles.left}>
                         <img src={soulSync_logo} alt="" />
-                        <div className={styles.matchmaking}>
-                            Matchmaking redefined
+                        <div className={styles.match_making1}>
+                            Matchmaking Redefined
+                        </div>
+                        <div className={styles.sign}>
+                            <img src={tagline_line} alt="" />
                         </div>
                     </div>
                     <div className={styles.right}>
@@ -68,6 +70,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
         </>
     )
