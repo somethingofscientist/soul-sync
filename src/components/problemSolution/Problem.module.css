@@ -21,6 +21,7 @@
 .problem {
     font-weight: 700;
     font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .container .solution {
@@ -36,7 +37,8 @@
 
 .heading {
     /* background-color: pink; */
-    padding: 50px 0;
+    /* padding: 50px 0; */
+    height: 100px;
     display: flex;
     color: var(--soulsync-blue);
     align-items: center;

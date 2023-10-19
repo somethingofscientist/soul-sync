@@ -19,7 +19,7 @@ button {
 
 
 .start_journey {
-    font-size: 40px;
+    font-size: 24px;
     text-transform: capitalize;
     font-weight: 700;
     color: var(--soulsync-blue);
@@ -27,8 +27,9 @@ button {
     width: max-content;
     margin: auto;
     font-weight: 700;
-    padding: 35px 100px;
-    border-radius: 20px !important;
+    padding: 30px 100px;
+    border-radius: 60px !important;
+    /* background-color: aqua; */
 }
 
 .start_journey:hover {

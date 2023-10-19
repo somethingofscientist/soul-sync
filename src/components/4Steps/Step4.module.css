@@ -118,6 +118,14 @@
         display: block;
         /* background-color: rgb(255, 0, 0); */
     }
+
+    .heading>.left {
+        font-size: 38px;
+        font-weight: 700;
+        color: var(--soulsync-blue);
+        width: max-content;
+    }
+
 }
 
 @media (max-width: 576px) {
