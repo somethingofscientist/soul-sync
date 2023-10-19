@@ -6,6 +6,7 @@ import better from '../../Images/better.png'
 import lower from '../../Images/lower.png'
 import assess from '../../Images/assess.png';
 import high from '../../Images/hgh.png'
+import time_is_money from '../../Images/time_is_money.png'
 import background_circle from '../../Images/background.png'
 import Steps4 from '../4Steps/Steps4'
 
@@ -49,7 +50,7 @@ const Service = () => {
                             <p> Better Match Rates</p>
                         </div>
                         <div className={styles.circle2}>
-                            <img src={lower} alt="" />
+                            <img src={time_is_money} alt="" />
                             <p>Lower search <br /> Costs</p>
                         </div>
                         <div className={styles.circle1}>
@@ -69,7 +70,7 @@ const Service = () => {
                             <p> Better Match Rates</p>
                         </div>
                         <div className={styles.circle2_phone}>
-                            <img src={lower} alt="" />
+                            <img src={time_is_money} alt="" />
                             <p>Lower search costs</p>
                         </div>
                     </div>

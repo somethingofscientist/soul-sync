@@ -7,9 +7,11 @@ import dull from '../../Images/dull.png'
 import poor_service from '../../Images/poor.png'
 import lack from '../../Images/poor_service.png'
 import setting from '../../Images/setting.png'
-import data from '../../Images/data.png'
+import data from '../../Images/connection_based.png'
 import seamless from '../../Images/seamless.png'
 import service_level from '../../Images/service_level.png'
+import lack_of_profile from '../../Images/lack_profile.png'
+import numerous from '../../Images/numerous_high.png'
 
 const ProblemSolution = () => {
   return (
@@ -86,7 +88,7 @@ const ProblemSolution = () => {
           </div>
           <div className={styles.box}>
             <div className={styles.icon}>
-              <img src={lack} alt="" />
+              <img src={lack_of_profile} alt="" />
             </div>
             <div className={styles.orange_line}></div>
             <div className={styles.txt}>
@@ -180,7 +182,7 @@ const ProblemSolution = () => {
             </div>
             <div className={styles.orange_line}></div>
             <div className={styles.icon}>
-              <img src={service_level} alt="" />
+              <img src={numerous} alt="" />
             </div>
           </div>
 
