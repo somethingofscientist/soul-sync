@@ -193,9 +193,8 @@ const Hero = () => {
       </div>
 
 
-      <div className="div" id="containerForForm">
-
-      </div>
+      {/* THE PAPERFORM WILL BE HERE AVAILABLE AFTER CLICK */}
+      <div className="paper-form" id="containerForForm"> </div>
     </>
   )
 }
