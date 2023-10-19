@@ -123,6 +123,43 @@
     background-color: var(--soulsync-orange);
 }
 
+/* animations -- after Clients's CR  */
+.container .problem .box .txt .subheading1,
+.container .problem .box .txt .subheading2,
+.container .solution .box .txt .subheading1,
+.container .solution .box .txt .subheading2 {
+    position: relative !important;
+}
+
+.container .problem .heading,
+.container .solution .heading {
+    position: relative !important;
+}
+
+.solution .star_img_heading {
+    position: absolute !important;
+    left: 10%;
+    top: 0;
+}
+
+.problem .star_img_heading {
+    position: absolute !important;
+    right: 10%;
+    top: 100%;
+}
+
+.star_new_img {
+    position: absolute !important;
+    left: 60%;
+    bottom: -50px;
+    z-index: -9;
+    /* background-c olor: red; */
+}
+
+.star_new_img img {
+    /* width: 100%; */
+}
+
 
 @media (max-width:1440px) {
 

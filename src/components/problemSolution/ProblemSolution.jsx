@@ -1,4 +1,3 @@
-import React from 'react'
 
 import styles from './Problem.module.css';
 import understanding from '../../Images/understand.png'
@@ -13,6 +12,11 @@ import service_level from '../../Images/superior.png'
 import lack_of_profile from '../../Images/lack_profile.png'
 import numerous from '../../Images/numerous_high.png'
 
+import star from '../../Images/Sparkle.png'
+import circle from '../../Images/circle.png'
+
+import { Slide } from 'react-reveal';
+
 const ProblemSolution = () => {
   return (
     <>
@@ -20,15 +24,18 @@ const ProblemSolution = () => {
 
         {/* PROBLEM */}
         <div className={styles.problem}>
-
           {/* HEADING */}
           <div className={styles.heading}>
             <div className={styles.left}>
               Current Problems
             </div>
             <div className={styles.right}></div>
+            <Slide left>
+              <div className={styles.star_img_heading}>
+                <img src={star} alt="" />
+              </div>
+            </Slide>
           </div>
-
           {/* PROBLEM 1 */}
           <div className={styles.box}>
             <div className={styles.icon}>
@@ -41,6 +48,11 @@ const ProblemSolution = () => {
               </div>
               <div className={styles.subheading2}>
                 ‘Matchmakers’ neither take the time to truly understand who you are nor go in depth to understand what your partner preferences are
+                <Slide left>
+                  <div className={styles.star_new_img}>
+                    <img src={circle} alt="" />
+                  </div>
+                </Slide>
               </div>
             </div>
           </div>
@@ -65,6 +77,11 @@ const ProblemSolution = () => {
             <div className={styles.orange_line}></div>
             <div className={styles.txt}>
               <div className={styles.subheading1}>
+                <Slide left>
+                  <div className={styles.star_new_img}>
+                    <img src={star} alt="" />
+                  </div>
+                </Slide>
                 Dull Bio-data's
               </div>
               <div className={styles.subheading2}>
@@ -79,6 +96,11 @@ const ProblemSolution = () => {
             <div className={styles.orange_line}></div>
             <div className={styles.txt}>
               <div className={styles.subheading1}>
+                <Slide left>
+                  <div className={styles.star_new_img}>
+                    <img src={star} alt="" />
+                  </div>
+                </Slide>
                 Poor service from traditional bureaus
               </div>
               <div className={styles.subheading2}>
@@ -100,20 +122,24 @@ const ProblemSolution = () => {
               </div>
             </div>
           </div>
-
         </div>
+
+
 
         {/* SOLUTION */}
         <div className={styles.solution}>
-
           {/* HEADING */}
           <div className={styles.heading}>
+            <Slide right>
+              <div className={styles.star_img_heading}>
+                <img src={circle} alt="" />
+              </div>
+            </Slide>
             <div className={styles.right}></div>
             <div className={styles.left}>
               Our Solutions
             </div>
           </div>
-
           {/* SOLUTION 1 */}
           <div className={styles.box}>
             <div className={styles.txt}>
@@ -146,6 +172,11 @@ const ProblemSolution = () => {
           <div className={styles.box}>
             <div className={styles.txt}>
               <div className={styles.subheading1}>
+                <Slide right>
+                  <div className={styles.star_new_img}>
+                    <img src={circle} alt="" />
+                  </div>
+                </Slide>
                 Seamless online profiles with video snippets
               </div>
               <div className={styles.subheading2}>
@@ -164,7 +195,13 @@ const ProblemSolution = () => {
               </div>
               <div className={styles.subheading2}>
                 Conversational guidance, continuous feedback, review sessions and much more
+                <Slide right>
+                  <div className={styles.star_new_img}>
+                    <img src={star} alt="" />
+                  </div>
+                </Slide>
               </div>
+
             </div>
             <div className={styles.orange_line}></div>
             <div className={styles.icon}>
@@ -185,8 +222,6 @@ const ProblemSolution = () => {
               <img src={numerous} alt="" />
             </div>
           </div>
-
-
         </div>
 
       </div>
