@@ -73,6 +73,17 @@
     }
 }
 
+.embedButton{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    width: 150px;
+    cursor: pointer;
+}
+.embedButton:hover{
+    background-color: rgb(173, 2, 53);
+}
+
 .container_web {
     width: 100%;
     position: relative;

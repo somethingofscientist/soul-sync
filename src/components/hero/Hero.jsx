@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import logo from '../../Images/header_logo.png';
 import rope from '../../Images/rope.png';
 import star from '../../Images/StarFour.png';
@@ -15,28 +15,78 @@ import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
 
-  const [loading, setLoading] = useState(false);
   const [embedded, setEmbedded] = useState(false);
+  const [loading, setLoading] = useState(false);
+  // const [embedded, setEmbedded] = useState(false);
 
-  const embedContent = () => {
+
+  // -------------- INITIAL CODE ---------------
+  // const embedContent = () => {
+  //   const script = document.createElement('script');
+  //   script.src = 'https://paperform.co/__embed.min.js';
+  //   script.async = true;
+
+
+  //   const div = document.createElement('div');
+  //   div.setAttribute('data-paperform-id', 'soulsync');
+  //   div.setAttribute('data-takeover', '1');
+
+
+  //   document.body.appendChild(div);
+  //   document.body.appendChild(script);
+  //   setEmbedded(true);
+  // };
+
+
+
+
+  useEffect(() => {
+    // Load the Paperform script when the component mounts
     const script = document.createElement('script');
     script.src = 'https://paperform.co/__embed.min.js';
     script.async = true;
-
-    const div = document.createElement('div');
-    div.setAttribute('data-paperform-id', 'soulsync');
-    div.setAttribute('data-takeover', '1');
-
-    document.body.appendChild(div);
     document.body.appendChild(script);
-    setEmbedded(true);
+  }, []);
+
+
+  // const embedContent = (embedType) => {
+  //   const div = document.createElement('div');
+  //   div.setAttribute('data-paperform-id', 'soulsync');
+
+  //   if (embedType === 'fullscreen') {
+  //     div.setAttribute('data-takeover', '1');
+  //   }
+  //   // else if (embedType === 'popup') {
+  //   //   div.setAttribute('data-popup-button', '1');
+  //   // }
+
+  //   document.body.appendChild(div);
+  //   setEmbedded(true);
+  // };
+
+  const embedContent = (embedType) => {
+    const formContainer = document.createElement('div');
+    formContainer.setAttribute('data-paperform-id', 'soulsync');
+
+    if (embedType === 'fullscreen') {
+      formContainer.setAttribute('data-takeover', '1');
+    }
+
+    const parentElement = document.getElementById('containerForForm');
+
+    if (parentElement) {
+      parentElement.appendChild(formContainer);
+      setEmbedded(true);
+    } else {
+      console.error('Parent element not found.');
+    }
   };
 
 
 
   return (
     <>
-      <div className={styles.container_web}>
+      <div className={styles.container_web} >
 
         <div className={styles.left_web}>
           <div className={styles.rope}>
@@ -77,6 +127,10 @@ const Hero = () => {
                   }}
                 />
               </div>
+
+
+
+              {/* ------------ INITIAAL CODE --------- */}
               {loading ?
                 (
                   <div className={styles.loading}>
@@ -93,6 +147,25 @@ const Hero = () => {
                   </button>
                 )
               }
+
+
+
+              {/* {embedded ? (
+                null
+              ) : (
+                <div className={styles.embedButtons}>
+                  <button onClick={() => embedContent('inline')} className={styles.embedButton}>
+                    Inline
+                  </button>
+                  &nbsp;
+                  <button onClick={() => embedContent('fullscreen')} className={styles.embedButton}>
+                    Full Screen
+                  </button>
+                  &nbsp;
+                </div>
+              )} */}
+
+
             </div>
           </div>
 
@@ -116,6 +189,11 @@ const Hero = () => {
             <img src={rope} alt="" />
           </div>
         </div>
+
+      </div>
+
+
+      <div className="div" id="containerForForm">
 
       </div>
     </>

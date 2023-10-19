@@ -202,6 +202,23 @@
         width: 15%;
     }
 
+    .container .solution .heading .left,
+    .container .problem .heading .left {
+        font-size: 24px !important;
+        width: 450px;
+    }
+
+    .container .solution .heading .left {
+        font-size: 24px !important;
+        width: max-content;
+    }
+
+    .container .solution .heading .right,
+    .container .problem .heading .right {
+        font-size: 24px !important;
+        width: 50%;
+    }
+
     .problem .subheading1,
     .solution .subheading1 {
         letter-spacing: 0;
