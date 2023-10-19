@@ -161,6 +161,11 @@ const ProblemSolution = () => {
                 Curated connections powered by data
               </div>
               <div className={styles.subheading2}>
+                <Slide right>
+                  <div className={styles.star_new_img}>
+                    <img src={circle} alt="" />
+                  </div>
+                </Slide>
                 Profile recommendations are completely data driven & curated basis your partner preference inputs. We prioritize profile recommendation basis potential  sync rates
               </div>
             </div>
@@ -172,11 +177,7 @@ const ProblemSolution = () => {
           <div className={styles.box}>
             <div className={styles.txt}>
               <div className={styles.subheading1}>
-                <Slide right>
-                  <div className={styles.star_new_img}>
-                    <img src={circle} alt="" />
-                  </div>
-                </Slide>
+
                 Seamless online profiles with video snippets
               </div>
               <div className={styles.subheading2}>
