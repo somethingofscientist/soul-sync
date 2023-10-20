@@ -15,20 +15,22 @@ const Footer = () => {
 
     const [embedded, setEmbedded] = useState(false);
 
-    const embedContent = () => {
+    const embedContentInNewWindow = () => {
         const script = document.createElement('script');
         script.src = 'https://paperform.co/__embed.min.js';
         script.async = true;
-
-        const div = document.createElement('div');
-        div.setAttribute('data-paperform-id', 'soulsync');
-        div.setAttribute('data-takeover', '1');
-
-        document.body.appendChild(div);
-        document.body.appendChild(script);
-        setEmbedded(true);
+        const newWindow = window.open('https://soulsync.paperform.co/?embed=1&takeover=1&inline=0&popup=0&_d=&_in=0', '_blank');
+        if (newWindow) {
+            const div = document.createElement('div');
+            div.setAttribute('data-paperform-id', 'soulsync');
+            div.setAttribute('data-takeover', '1');
+            newWindow.document.body.appendChild(div);
+            newWindow.document.body.appendChild(script);
+            setEmbedded(true);
+        } else {
+            alert('Popup blocked or unable to open a new window.');
+        }
     };
-
 
 
 
@@ -38,8 +40,7 @@ const Footer = () => {
 
                 <div className={styles.orange_container}>
                     <button
-                        onClick={embedContent}
-                    // className={styles.start}
+                        onClick={embedContentInNewWindow}
                     >
                         <div className={styles.start_journey}>Start your journey now !</div>
                     </button>

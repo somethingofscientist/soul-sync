@@ -17,68 +17,21 @@ const Hero = () => {
 
   const [embedded, setEmbedded] = useState(false);
   const [loading, setLoading] = useState(false);
-  // const [embedded, setEmbedded] = useState(false);
 
-
-  // -------------- INITIAL CODE ---------------
-  // const embedContent = () => {
-  //   const script = document.createElement('script');
-  //   script.src = 'https://paperform.co/__embed.min.js';
-  //   script.async = true;
-
-
-  //   const div = document.createElement('div');
-  //   div.setAttribute('data-paperform-id', 'soulsync');
-  //   div.setAttribute('data-takeover', '1');
-
-
-  //   document.body.appendChild(div);
-  //   document.body.appendChild(script);
-  //   setEmbedded(true);
-  // };
-
-
-
-
-  useEffect(() => {
-    // Load the Paperform script when the component mounts
+  const embedContentInNewWindow = () => {
     const script = document.createElement('script');
     script.src = 'https://paperform.co/__embed.min.js';
     script.async = true;
-    document.body.appendChild(script);
-  }, []);
-
-
-  // const embedContent = (embedType) => {
-  //   const div = document.createElement('div');
-  //   div.setAttribute('data-paperform-id', 'soulsync');
-
-  //   if (embedType === 'fullscreen') {
-  //     div.setAttribute('data-takeover', '1');
-  //   }
-  //   // else if (embedType === 'popup') {
-  //   //   div.setAttribute('data-popup-button', '1');
-  //   // }
-
-  //   document.body.appendChild(div);
-  //   setEmbedded(true);
-  // };
-
-  const embedContent = (embedType) => {
-    const formContainer = document.createElement('div');
-    formContainer.setAttribute('data-paperform-id', 'soulsync');
-
-    if (embedType === 'fullscreen') {
-      formContainer.setAttribute('data-takeover', '1');
-    }
-
-    const parentElement = document.getElementById('containerForForm');
-
-    if (parentElement) {
-      parentElement.appendChild(formContainer);
+    const newWindow = window.open('https://soulsync.paperform.co/?embed=1&takeover=1&inline=0&popup=0&_d=&_in=0', '_blank');
+    if (newWindow) {
+      const div = document.createElement('div');
+      div.setAttribute('data-paperform-id', 'soulsync');
+      div.setAttribute('data-takeover', '1');
+      newWindow.document.body.appendChild(div);
+      newWindow.document.body.appendChild(script);
       setEmbedded(true);
     } else {
-      console.error('Parent element not found.');
+      alert('Popup blocked or unable to open a new window.');
     }
   };
 
@@ -141,7 +94,7 @@ const Hero = () => {
                 ) :
                 (
                   <button
-                    onClick={embedContent}
+                    onClick={embedContentInNewWindow}
                     className={styles.start_journey}>
                     Start Your Journey Now
                   </button>

@@ -6,8 +6,9 @@ import better from '../../Images/better.png'
 import lower from '../../Images/lower.png'
 import assess from '../../Images/assess.png';
 import high from '../../Images/hgh.png'
-import time_is_money from '../../Images/time_is_money.png'
+import time_is_money from '../../Images/lower_search_cost.png'
 import background_circle from '../../Images/background.png'
+import clock from '../../Images/clock.png'
 import Steps4 from '../4Steps/Steps4'
 
 
@@ -51,11 +52,11 @@ const Service = () => {
                         </div>
                         <div className={styles.circle2}>
                             <img src={time_is_money} alt="" />
-                            <p>Lower search <br /> Costs</p>
+                            <p>Lower Search <br /> Costs</p>
                         </div>
                         <div className={styles.circle1}>
-                            <img src={high} alt="" />
-                            <p>Lower search <br /> Time</p>
+                            <img src={clock} alt="" />
+                            <p>Lower Search <br /> Time</p>
                         </div>
                     </div>
                 </div>

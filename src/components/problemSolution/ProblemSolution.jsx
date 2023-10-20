@@ -110,7 +110,7 @@ const ProblemSolution = () => {
           </div>
           <div className={styles.box}>
             <div className={styles.icon}>
-              <img src={lack_of_profile} alt="" />
+              <img src={numerous} alt="" />
             </div>
             <div className={styles.orange_line}></div>
             <div className={styles.txt}>
@@ -220,7 +220,7 @@ const ProblemSolution = () => {
             </div>
             <div className={styles.orange_line}></div>
             <div className={styles.icon}>
-              <img src={numerous} alt="" />
+              <img src={lack_of_profile} alt="" />
             </div>
           </div>
         </div>
