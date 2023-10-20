@@ -153,7 +153,7 @@
     left: 60%;
     bottom: -50px;
     z-index: -9;
-    /* background-c olor: red; */
+    /* background-color: red; */
 }
 
 .star_new_img img {
@@ -182,7 +182,7 @@
     }
 }
 
-@media (max-width:1366px) {
+@media (min-width:1366px) {
 
     .container .solution .heading .left,
     .container .problem .heading .left {
@@ -201,6 +201,11 @@
     .container .solution .heading .right,
     .container .problem .heading .right {
         width: 280px !important;
+    }
+
+    .subheading2 .star_new_img img #circle {
+        margin-top: 100px;
+        background-color: red !important;
     }
 }
 
@@ -289,5 +294,16 @@
         width: 80%;
         text-align: left;
     }
+
+
+    .star_new_img {
+        position: absolute !important;
+        left: 60%;
+        bottom: -115px;
+        z-index: -9;
+        /* background-color: red; */
+    }
+
+
 
 }

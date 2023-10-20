@@ -78,6 +78,8 @@ const Hero = () => {
                   options={{
                     strings: [' what matters to you', ' your curated matches', ' your future soulmate'],
                     autoStart: true,
+                    delay: 5,
+                    deleteSpeed: 1,
                     loop: true,
                   }}
                 />
