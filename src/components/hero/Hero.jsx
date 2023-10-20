@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../../Images/header_logo.png';
+// import logo from '../../Images/header_logo.png';
+
+import logo from '../../Images/svg/logo_maain.svg'
 import rope from '../../Images/rope.png';
 import star from '../../Images/StarFour.png';
 import sparkle from '../../Images/Sparkle.png';

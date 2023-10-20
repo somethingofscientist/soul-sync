@@ -110,6 +110,7 @@ button {
 .icon a {
     width: 100%;
     margin-right: 20px;
+    /* background-color: red; */
 }
 
 .icon img {
@@ -140,6 +141,7 @@ button {
     .icon a {
         width: 100%;
         margin-right: 20px;
+        /* background-color: red; */
     }
     
     .icon img {

@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 
 
 import styles from './Footer.module.css';
-import soulSync_logo from '../../Images/logo.png'
+// import soulSync_logo from '../../Images/logo.png'
+import soulSync_logo from '../../Images/svg/logo_maain.svg'
 import facebook from '../../Images/facebook.png'
 import instagram from '../../Images/insta-logo.png'
 import whatsapp from '../../Images/whatsapp.png'
