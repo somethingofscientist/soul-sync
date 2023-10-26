@@ -127,7 +127,7 @@ const ProblemSolution = () => {
         {/* SOLUTION */}
         <div className={styles.solution}>
           {/* HEADING */}
-          {/* <div className={styles.heading}>
+          <div className={styles.heading}>
             <Slide right>
               <div className={styles.star_img_heading}>
                 <img src={circle} alt="" />
@@ -137,8 +137,9 @@ const ProblemSolution = () => {
             <div className={styles.left}>
               Our Solutions
             </div>
-          </div> */}
+          </div>
 
+        {/* FOR PHONE VIEW */}
           <div className={styles.heading_phone}>
             <div className={styles.left_phone}>
               Our Solutions
