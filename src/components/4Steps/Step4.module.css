@@ -135,7 +135,7 @@
         color: var(--soulsync-blue);
         width: max-content;
     }
-    
+
     .heading>.right {
         border: 1px solid var(--soulsync-orange);
         width: 200px;
@@ -154,25 +154,30 @@
     .heading {
         padding: 50px 0 0 0;
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+        /* flex-wrap: wrap; */
+        /* align-items: center; */
     }
 
     .heading>.left {
         letter-spacing: 0;
         font-size: 24px;
-        width: 70% !important;
+        /* width: 100% !important; */
         font-weight: 700;
         color: var(--soulsync-blue);
-        width: max-content;
+        width: 500px;
     }
 
 
     .heading>.right {
         border: 1px solid var(--soulsync-orange);
-        width: 100px;
-        display: none;
+        width: 200px;
+        /* width: 100%; */
+        /* display: none; */
         margin-left: 20px;
+    }
+
+    .heading img {
+        display: none !important;
     }
 
     .step_section {
