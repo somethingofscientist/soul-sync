@@ -74,13 +74,14 @@ const Service = () => {
                             <img src={time_is_money} alt="" />
                             <p>Lower search costs</p>
                         </div>
-                    </div>
-                    <div className={styles.container1_right_phone}>
-                        <div className={styles.circle3_phone}>
-                            <img src={high} alt="" />
+                        <div className={styles.circle1_phone}>
+                            <img src={clock} alt="" />
                             <p>Lower search time</p>
                         </div>
                     </div>
+                    {/* <div className={styles.container1_right_phone}> */}
+
+                    {/* </div> */}
                 </div>
 
 

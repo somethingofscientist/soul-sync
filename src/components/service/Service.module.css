@@ -252,9 +252,9 @@
     .container1_right_phone {
         position: relative !important;
         display: flex !important;
+        flex-wrap: wrap;
+        justify-content: center;
         width: 100%;
-        /* background-color: red !important; */
-        /* background-color: rgb(91, 187, 74); */
     }
 
     .circle1_phone,
@@ -277,14 +277,32 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 20px;
     }
 
     .circle2_phone {
         position: absolute !important;
         z-index: 1;
-        left: 159px;
+        /* left: 159px; */
         color: white;
         background-color: var(--soulsync-orange);
+    }
+
+    .circle2_phone {
+        position: relative !important;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        z-index: 2;
+        font-size: 12px;
+        font-weight: 700;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
     }
 
     .circle4_phone {
@@ -335,11 +353,12 @@
         letter-spacing: 0;
         color: var(--soulsync-blue);
         width: max-content;
+        /* background-color: red; */
     }
 
     .heading>.right {
         border: 1px solid var(--soulsync-orange);
-        width: 300px;
+        width: 150px;
         margin-left: 20px;
     }
 
@@ -365,6 +384,7 @@
         z-index: 2;
         position: relative;
         color: var(--soulsync-grey);
+        ;
     }
 
     .service_circle2 {

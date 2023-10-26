@@ -239,7 +239,7 @@
     .container_web {
         flex-wrap: wrap;
         width: 100%;
-        padding: 50px 10px;
+        padding: 0px 10px;
     }
 
     .middle_web {
