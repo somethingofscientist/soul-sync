@@ -352,14 +352,14 @@
         font-weight: 700 !important;
         letter-spacing: 0;
         color: var(--soulsync-blue);
-        width: 300px;
-        /* background-color: red; */
+        width: max-content;
+        white-space: nowrap;
     }
 
     .heading>.right {
         border: 1px solid var(--soulsync-orange);
-        width: 150px;
-        margin-left: 20px;
+        width: 100%;
+        /* margin-left: 2000px; */
     }
 
 

@@ -247,7 +247,8 @@
     .container .solution .heading .left,
     .container .problem .heading .left {
         font-size: 24px !important;
-        width: 750px;
+        width: max-content;
+        white-space: nowrap;
         /* background-color: red; */
     }
 
@@ -259,7 +260,7 @@
     .container .solution .heading .right,
     .container .problem .heading .right {
         font-size: 24px !important;
-        width: 50%;
+        width: 100%;
     }
 
     .problem .subheading1,
@@ -296,7 +297,6 @@
         text-align: left;
     }
 
-
     .star_new_img {
         position: absolute !important;
         left: 60%;
@@ -305,9 +305,37 @@
         /* background-color: red; */
     }
 
-    
-    .box .txt .subheading2 .star_new_img img{
+    .box .txt .subheading2 .star_new_img img {
         display: none;
+    }
+
+    .container .solution {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px solid pink; */
+    }
+
+    .solution .heading_phone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .heading_phone .left_phone {
+        width: max-content;
+        font-size: 24px;
+        font-weight: bold;
+        white-space: nowrap;
+        padding-right: 20px;
+        color: var(--soulsync-blue);
+    }
+
+    .heading_phone .right_phone {
+        width: 100% !important;
+        border: 1px solid var(--soulsync-orange);
     }
 
 }

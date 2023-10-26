@@ -132,26 +132,26 @@ button {
         align-items: end;
         flex-direction: column;
     }
-    
+
     .icon {
         width: 20%;
         display: flex;
     }
-    
+
     .icon a {
         width: 100%;
         margin-right: 20px;
         /* background-color: red; */
     }
-    
+
     .icon img {
         display: block;
     }
-    
+
     .right p {
         padding: 20px 0;
     }
-    
+
 }
 
 @media (max-width:576px) {
@@ -231,29 +231,30 @@ button {
         letter-spacing: 0;
         /* background-color: red; */
     }
-    
+
     .footer .left img {
         width: 70%;
     }
+
     .matchmaking {
         font-weight: 700;
         font-size: 24px;
         color: var(--soulsync-blue);
     }
-    
+
     .match_making1 {
         font-size: 16px;
-        padding-top:0px;
+        padding-top: 0px;
         text-align: left !important;
     }
-    
+
     .sign {
         width: 100%;
         text-align: left !important;
     }
-    
+
     .sign img {
         width: 50% !important;
     }
-    
+
 }

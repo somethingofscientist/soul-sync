@@ -59,18 +59,22 @@
 
 
 @media (max-width: 576px) {
+    .heading {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
 
     .left {
         font-size: 24px;
         font-weight: 700;
         width: 290px;
-        /* padding: 0; */
-        /* background-color: red; */
+        width: max-content;
+        white-space: nowrap;
     }
 
     .right {
-        width: 50%;
-        /* background-color: red !important; */
+        width: 100%;
     }
 
     .animation {

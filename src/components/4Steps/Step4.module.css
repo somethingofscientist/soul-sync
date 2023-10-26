@@ -164,13 +164,13 @@
         /* width: 100% !important; */
         font-weight: 700;
         color: var(--soulsync-blue);
-        width: 500px;
+        width: max-content;
     }
 
 
     .heading>.right {
         border: 1px solid var(--soulsync-orange);
-        width: 200px;
+        width: 250px;
         /* width: 100%; */
         /* display: none; */
         margin-left: 20px;

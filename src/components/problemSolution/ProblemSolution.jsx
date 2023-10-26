@@ -124,12 +124,10 @@ const ProblemSolution = () => {
           </div>
         </div>
 
-
-
         {/* SOLUTION */}
         <div className={styles.solution}>
           {/* HEADING */}
-          <div className={styles.heading}>
+          {/* <div className={styles.heading}>
             <Slide right>
               <div className={styles.star_img_heading}>
                 <img src={circle} alt="" />
@@ -139,7 +137,15 @@ const ProblemSolution = () => {
             <div className={styles.left}>
               Our Solutions
             </div>
+          </div> */}
+
+          <div className={styles.heading_phone}>
+            <div className={styles.left_phone}>
+              Our Solutions
+            </div>
+            <div className={styles.right_phone}></div>
           </div>
+
           {/* SOLUTION 1 */}
           <div className={styles.box}>
             <div className={styles.txt}>
