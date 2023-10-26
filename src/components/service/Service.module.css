@@ -352,7 +352,7 @@
         font-weight: 700 !important;
         letter-spacing: 0;
         color: var(--soulsync-blue);
-        width: max-content;
+        width: 300px;
         /* background-color: red; */
     }
 

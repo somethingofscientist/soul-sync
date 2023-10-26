@@ -273,6 +273,8 @@
 
     .sub_heading {
         /* width: 370px; */
+        font-size: 20px;
+        /* background-color: red; */
     }
 
     .grp_img {

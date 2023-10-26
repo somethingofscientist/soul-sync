@@ -159,12 +159,10 @@ button {
     .start_journey {
         letter-spacing: 0;
         text-transform: capitalize;
-        font-weight: 700;
-        padding: 0;
-        /* background-color: red;    */
+        /* background-color: red; */
         color: var(--soulsync-blue);
         font-size: 18px;
-        padding: 20px 40px;
+        padding: 10px 40px;
     }
 
     .start {
@@ -233,9 +231,6 @@ button {
         letter-spacing: 0;
         /* background-color: red; */
     }
-
-
-
     
     .footer .left img {
         width: 70%;

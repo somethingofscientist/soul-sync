@@ -247,7 +247,7 @@
     .container .solution .heading .left,
     .container .problem .heading .left {
         font-size: 24px !important;
-        width: 490px;
+        width: 750px;
         /* background-color: red; */
     }
 
@@ -305,6 +305,9 @@
         /* background-color: red; */
     }
 
-
+    
+    .box .txt .subheading2 .star_new_img img{
+        display: none;
+    }
 
 }
