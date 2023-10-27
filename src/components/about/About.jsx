@@ -70,8 +70,7 @@ const About = () => {
                                 <img src={heart_icon} alt="" />
                             </div>
                             <div className={styles.right_animation}>
-                                We are your trusted partner in finding you your soulmate.
-                                SoulSync is out to disrupt the traditional arranged marriage matchmaking industry
+                                We are your trusted partner in finding you your soulmate
                             </div>
                         </div>
                     </Slide>
@@ -89,7 +88,7 @@ const About = () => {
                                 className={styles.right_animation}
                                 style={{ textAlign: "justify", width: "70%" }}
                             >
-                                We are a new age service provider that aims to effectively minimise your soulmate search with the highest quality
+                                We are committed to finding your best match whilst ensuring your search journey is joyful and effective
                             </div>
                         </div>
                     </Slide>
