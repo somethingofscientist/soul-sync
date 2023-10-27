@@ -6,25 +6,9 @@ const Sample = () => {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.left}>
-                    Heading
+                <div className={styles.underlined}>
+                    Matchmaking
                 </div>
-                {/* ṭhat orange line */}
-                <div className={styles.right}></div>
-            </div>
-            <div className={styles.container}>
-                <div className={styles.left}>
-                    Heading With Long And More Content
-                </div>
-                {/* ṭhat orange line */}
-                <div className={styles.right}></div>
-            </div>
-            <div className={styles.container}>
-                <div className={styles.left}>
-                    Heading With Long And More Content with more more Content
-                </div>
-                {/* ṭhat orange line */}
-                <div className={styles.right}></div>
             </div>
         </>
     );

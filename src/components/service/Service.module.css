@@ -107,6 +107,7 @@
     width: 65%;
 }
 
+
 .right {
     width: 50%;
     /* border: 1px solid lime; */
@@ -140,28 +141,13 @@
     display: none;
 }
 
-
-@media (max-width:1440px) {
-    .circle1 {
-        width: 250px;
-        height: 250px;
-    }
-
-    .circle2 {
-        width: 250px;
-        height: 250px;
-    }
-}
-
-
-
 .sub_container {
     margin: auto;
-    padding: 70px 0;
+    /* background-color: palegoldenrod; */
+    padding: 70px 0 200px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: palegoldenrod; */
 }
 
 .left {
@@ -204,6 +190,7 @@
     z-index: 1;
     margin: auto;
 }
+
 
 
 @media (max-width:1440px) {

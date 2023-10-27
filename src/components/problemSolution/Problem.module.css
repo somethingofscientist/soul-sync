@@ -47,6 +47,7 @@
 
 .solution .heading {
     display: flex;
+    /* background-color: red; */
     justify-content: end;
 }
 
@@ -164,6 +165,18 @@
     display: none;
 }
 
+.problem .heading .left {
+    /* background-color: red; */
+    width: max-content !important;
+    padding: 0;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.problem .heading .right {
+    text-align: left;
+}
+
 
 @media (max-width:1440px) {
 
@@ -216,7 +229,7 @@
 
 
 @media (max-width:576px) {
-    
+
 
     .container {
         width: 90%;
@@ -320,7 +333,8 @@
         align-items: center;
         /* border: 2px solid pink; */
     }
-    .container .solution .heading{
+
+    .container .solution .heading {
         display: none;
     }
 
