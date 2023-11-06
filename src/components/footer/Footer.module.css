@@ -80,6 +80,8 @@ button {
     letter-spacing: 0;
     text-align: center !important;
     color: var(--soulsync-blue);
+    /* background-color: red; */
+    margin-left: -30px;
 }
 
 .sign {

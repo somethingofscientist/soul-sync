@@ -20,23 +20,38 @@ const Hero = () => {
   const [embedded, setEmbedded] = useState(false);
   const [loading, setLoading] = useState(false);
 
+  // const embedContentInNewWindow = () => {
+  //   const script = document.createElement('script');
+  //   script.src = 'https://paperform.co/__embed.min.js';
+  //   script.async = true;
+  //   const newWindow = window.open('https://soulsync.paperform.co/?embed=1&takeover=1&inline=0&popup=0&_d=&_in=0', '_blank');
+  //   if (newWindow) {
+  //     const div = document.createElement('div');
+  //     div.setAttribute('data-paperform-id', 'soulsync');
+  //     div.setAttribute('data-takeover', '1');
+  //     newWindow.document.body.appendChild(div);
+  //     newWindow.document.body.appendChild(script);
+  //     setEmbedded(true);
+  //   } else {
+  //     alert('Popup blocked or unable to open a new window.');
+  //   }
+  // };
   const embedContentInNewWindow = () => {
-    const script = document.createElement('script');
-    script.src = 'https://paperform.co/__embed.min.js';
-    script.async = true;
-    const newWindow = window.open('https://soulsync.paperform.co/?embed=1&takeover=1&inline=0&popup=0&_d=&_in=0', '_blank');
+    const newWindow = window.open('', '_blank');
     if (newWindow) {
-      const div = document.createElement('div');
-      div.setAttribute('data-paperform-id', 'soulsync');
-      div.setAttribute('data-takeover', '1');
-      newWindow.document.body.appendChild(div);
-      newWindow.document.body.appendChild(script);
-      setEmbedded(true);
-    } else {
-      alert('Popup blocked or unable to open a new window.');
-    }
-  };
+        const div = document.createElement('div');
+        div.setAttribute('data-paperform-id', 'iqfglcub');
+        div.setAttribute('data-takeover', '1');
+        newWindow.document.body.appendChild(div);
 
+        const script = newWindow.document.createElement('script');
+        script.src = 'https://paperform.co/__embed.min.js';
+        newWindow.document.body.appendChild(script);
+        setEmbedded(true);
+    } else {
+        alert('Popup blocked or unable to open a new window.');
+    }
+};
 
 
   return (
