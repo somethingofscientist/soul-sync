@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a179390e.css",
+    "main.js": "/static/js/main.9785e5f2.js",
+    "static/js/787.76a0505a.chunk.js": "/static/js/787.76a0505a.chunk.js",
+    "static/media/girl.png": "/static/media/girl.367ad5348c6672ebef65.png",
+    "static/media/boy.png": "/static/media/boy.220b9cc7b23639fe9031.png",
+    "static/media/mobile1.png": "/static/media/mobile1.9405aec1d7db85d01104.png",
+    "static/media/grp1.jpg": "/static/media/grp1.b93629a8c1855507f8e3.jpg",
+    "static/media/Mask Group.png": "/static/media/Mask Group.9e9ca73ddf7e0094a4b3.png",
+    "static/media/background.png": "/static/media/background.ece565d8e61946b678fc.png",
+    "static/media/connect.png": "/static/media/connect.6fa1a4992a8af54c5741.png",
+    "static/media/match.png": "/static/media/match.ab59aeb1b1bed4b8ea9c.png",
+    "static/media/meeting.png": "/static/media/meeting.af95204fc626e646df07.png",
+    "static/media/get.png": "/static/media/get.bafdc4dcb2740a526bee.png",
+    "static/media/google.png": "/static/media/google.3039d14329db86ea865f.png",
+    "static/media/logo_maain.svg": "/static/media/logo_maain.415caa5113ff39a982b0337c7eb67295.svg",
+    "index.html": "/index.html",
+    "static/media/tagline_line.svg": "/static/media/tagline_line.f2f038317050d319980ec639da1c6609.svg",
+    "main.a179390e.css.map": "/static/css/main.a179390e.css.map",
+    "main.9785e5f2.js.map": "/static/js/main.9785e5f2.js.map",
+    "787.76a0505a.chunk.js.map": "/static/js/787.76a0505a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a179390e.css",
+    "static/js/main.9785e5f2.js"
+  ]
+}
