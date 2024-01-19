@@ -123,6 +123,32 @@ button {
     padding: 20px 0;
 }
 
+.foooter_last {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy {
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy a {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.address h3 {
+    margin: 20px 0 10px 0;
+}
+
+
+.address {}
+
+
 
 @media (max-width:1440px) {
     .right {
@@ -153,7 +179,6 @@ button {
     .right p {
         padding: 20px 0;
     }
-
 }
 
 @media (max-width:576px) {

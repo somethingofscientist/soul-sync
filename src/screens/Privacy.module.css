@@ -1,0 +1,66 @@
+.container {
+    /* background-color: rgb(25, 25, 25); */
+    /* color: white; */
+    width: 100%;
+    line-height: 40px;
+    letter-spacing: 1px;
+    padding: 0 50px;
+}
+
+.heading {
+    font-size: 40px;
+    padding: 50px 0 20px 0;
+}
+
+.sub_heading {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.text1 {
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.sub_points ol {
+    list-style-type: decimal;
+    margin-left: 50px;
+}
+
+.sub_points ol li {
+    list-style-type: lower-alpha;
+}
+
+.sub_points_again ul li {
+    margin-left: 60px;
+    list-style-type: decimal;
+}
+
+
+@media(max-width:768px) {
+    .container {
+        line-height: 40px;
+        letter-spacing: 0.5px;
+        padding: 100px 20px;
+    }
+
+    .heading {
+        font-size: 40px;
+        padding: 20px 0 10px 0;
+    }
+
+    .sub_heading {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+
+    .sub_points ol {
+        list-style-type: decimal;
+        margin-left: 10px;
+    }
+
+    .sub_points_again ul li {
+        margin-left: 10px;
+        list-style-type: decimal;
+    }
+}

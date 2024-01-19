@@ -8,6 +8,7 @@ import facebook from '../../Images/facebook.png'
 import instagram from '../../Images/insta-logo.png'
 import whatsapp from '../../Images/whatsapp.png'
 import tagline_line from '../../Images/svg/tagline_line.svg'
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -88,8 +89,32 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <div className={styles.foooter_last}>
+                    <div className={styles.address}>
+                        <h3>Operating & Registered address.</h3>
+                        9 Siris Road, DLF City Phase 3, Gurugran, Haryana, 122002
 
+                        <h3>Contact Us</h3>
+                        We can be reached by email at hello@thesoulsync.com  <br />
+                        or via phone at +91-7678149249
+                    </div>
+
+
+                    <div className={styles.privacy}>
+                        <Link to='/privacy-policy'>
+                            Privacy Policy
+                        </Link>
+                        <Link to='/terms-and-condition'>
+                            Terms & Condition
+                        </Link>
+                        <Link to='/refund-and-cancellation'>
+                            Refund & cancellation policy
+                        </Link>
+                    </div>
+
+                </div>
             </div>
+
         </>
     )
 }
