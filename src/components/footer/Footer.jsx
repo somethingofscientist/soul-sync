@@ -101,13 +101,13 @@ const Footer = () => {
 
 
                     <div className={styles.privacy}>
-                        <Link to='/privacy-policy'>
+                        <Link to='/privacy-policy' target='_blank'>
                             Privacy Policy
                         </Link>
-                        <Link to='/terms-and-condition'>
+                        <Link to='/terms-and-condition' target='_blank'>
                             Terms & Condition
                         </Link>
-                        <Link to='/refund-and-cancellation'>
+                        <Link to='/refund-and-cancellation' target='_blank'>
                             Refund & cancellation policy
                         </Link>
                     </div>
