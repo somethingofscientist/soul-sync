@@ -124,30 +124,11 @@ button {
 }
 
 .foooter_last {
-    width: 90%;
+    width: 50%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-
-.privacy {
-    display: flex;
-    flex-direction: column;
-}
-
-.privacy a {
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-
-
-.address h3 {
-    margin: 20px 0 10px 0;
-}
-
-
-.address {}
-
 
 
 @media (max-width:1440px) {
@@ -284,4 +265,14 @@ button {
         width: 50% !important;
     }
 
+    .foooter_last {
+        width: 100%;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        padding: 0 0 100px 0;
+        text-align: center;
+    }
+    .foooter_last a{
+        margin-bottom: 10px;
+    }
 }

@@ -90,31 +90,23 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={styles.foooter_last}>
-                    <div className={styles.address}>
-                        <h3>Operating & Registered address.</h3>
-                        9 Siris Road, DLF City Phase 3, Gurugran, Haryana, 122002
-
-                        <h3>Contact Us</h3>
-                        We can be reached by email at hello@thesoulsync.com  <br />
-                        or via phone at +91-7678149249
-                    </div>
-
-
-                    <div className={styles.privacy}>
-                        <Link to='/privacy-policy' target='_blank'>
-                            Privacy Policy
-                        </Link>
-                        <Link to='/terms-and-condition' target='_blank'>
-                            Terms & Condition
-                        </Link>
-                        <Link to='/refund-and-cancellation' target='_blank'>
-                            Refund & cancellation policy
-                        </Link>
-                    </div>
-
+                    <Link to='/privacy-policy' target='_blank'>
+                        Privacy Policy
+                    </Link>
+                    
+                    <Link to='/terms-and-condition' target='_blank'>
+                        Terms & Condition
+                    </Link>
+                    
+                    <Link to='/refund-and-cancellation' target='_blank'>
+                        Refund & cancellation policy
+                    </Link>
+                    
+                    <Link to='/contact-us' target='_blank'>
+                        Contact Us
+                    </Link>
                 </div>
             </div>
-
         </>
     )
 }
