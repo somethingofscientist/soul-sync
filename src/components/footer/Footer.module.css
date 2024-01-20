@@ -268,9 +268,9 @@ button {
     .foooter_last {
         width: 100%;
         flex-wrap: wrap;
-        /* flex-direction: column; */
+        flex-direction: column;
         padding: 0 0 100px 0;
-        text-align: center;
+        text-align: left;
     }
     .foooter_last a{
         margin-bottom: 10px;
