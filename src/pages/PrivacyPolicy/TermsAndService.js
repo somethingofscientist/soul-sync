@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 const TermsAndService = () => {
     return (
         <>
-            <Link to='/'>
+            {/* <Link to='/'>
                 <div className={styles.back_button}>
                     Back To Home
                 </div>
-            </Link>
+            </Link> */}
             <div className={styles.container}>
                 <div className={styles.heading}>A) TERMS AND CONDITIONS </div>
                 <div className={styles.sub_heading}> Welcome to SoulSync!    </div>
