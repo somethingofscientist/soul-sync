@@ -1,5 +1,5 @@
 import styles from './Service.module.css';
-import phone from '../../Images/mobile1.png'
+import phone from '../../Images/svg/phione.svg'
 import google from '../../Images/google.png'
 import star from '../../Images/StarFour.png'
 import better from '../../Images/better.png'
