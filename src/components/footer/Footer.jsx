@@ -86,10 +86,10 @@ const Footer = () => {
                     <div className={styles.right}>
                         <p>follow Us On</p>
                         <div className={styles.icon}>
-                            <a href="https://www.facebook.com/">
+                            <a href="https://www.facebook.com/people/SoulSync/61550716416243/?mibextid=ZbWKwL" target='_blank'>
                                 <img src={facebook} alt="" />
                             </a>
-                            <a href="https://www.instagram.com">
+                            <a href="https://www.instagram.com/__soulsync__/?igsh=MWF6ajdiZzhoeTJ3Yw%3D%3D" target='_blank'>
                                 <img src={instagram} alt="" />
                             </a>
                             <a href={whatsappUrl}>
