@@ -155,7 +155,7 @@
     font-size: 20px !important;
     padding: 20px 20px;
     border-radius: 10px;
-    width: max-content;
+    width: 250px;
     letter-spacing: 0;
     background-color: var(--soulsync-orange);
     border: 1px solid var(--soulsync-orange);
