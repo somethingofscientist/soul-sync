@@ -1,3 +1,9 @@
+.marquee {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: var(--soulsync-orange);
+}
+
 .loading {
     display: flex;
     margin: auto;
@@ -73,14 +79,15 @@
     }
 }
 
-.embedButton{
+.embedButton {
     background-color: black;
     color: white;
     font-size: 24px;
     width: 150px;
     cursor: pointer;
 }
-.embedButton:hover{
+
+.embedButton:hover {
     background-color: rgb(173, 2, 53);
 }
 

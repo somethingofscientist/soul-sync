@@ -1,9 +1,15 @@
 import React from 'react'
 import styles from './Privacy.module.css';
+import { Link } from 'react-router-dom';
 
 const Refund = () => {
     return (
         <>
+         <Link to='/'>
+                <div className={styles.back_button}>
+                Back To Home
+                </div>
+            </Link>
             <div className={styles.container}>
                 <div className={styles.heading}>B) Refund & Cancellation policy</div>
                 <div className={styles.text} style={{ padding: " 0 0 200px 0" }}>

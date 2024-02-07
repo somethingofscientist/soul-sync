@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    height: 100vh;
+    /* or any desired height */
+}
+
+.whatsapp {
+    position: sticky;
+    bottom: 5%;
+    left: 90%;
+    /* right: 5%; */
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    color: white;
+    background-color: #25D366;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.whatsapp:hover {
+    font-size: 45px;
+}
+
+.tooltip {
+    position: absolute;
+    text-transform: capitalize;
+    width: max-content;
+    font-size: 14px;
+    top: -30px;
+    right: 0%;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}

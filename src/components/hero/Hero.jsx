@@ -12,7 +12,7 @@ import sign from '../../Images/sign.png';
 import grp from '../../Images/grp1.jpg';
 import tagline_line from '../../Images/svg/tagline_line.svg';
 import styles from './Hero.module.css';
-
+import Marquee from "react-fast-marquee";
 import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
@@ -39,23 +39,28 @@ const Hero = () => {
   const embedContentInNewWindow = () => {
     const newWindow = window.open('', '_blank');
     if (newWindow) {
-        const div = document.createElement('div');
-        div.setAttribute('data-paperform-id', 'iqfglcub');
-        div.setAttribute('data-takeover', '1');
-        newWindow.document.body.appendChild(div);
+      const div = document.createElement('div');
+      div.setAttribute('data-paperform-id', 'iqfglcub');
+      div.setAttribute('data-takeover', '1');
+      newWindow.document.body.appendChild(div);
 
-        const script = newWindow.document.createElement('script');
-        script.src = 'https://paperform.co/__embed.min.js';
-        newWindow.document.body.appendChild(script);
-        setEmbedded(true);
+      const script = newWindow.document.createElement('script');
+      script.src = 'https://paperform.co/__embed.min.js';
+      newWindow.document.body.appendChild(script);
+      setEmbedded(true);
     } else {
-        alert('Popup blocked or unable to open a new window.');
+      alert('Popup blocked or unable to open a new window.');
     }
-};
+  };
 
 
   return (
     <>
+      <div className={styles.marquee}>
+        <Marquee>
+          We are currently onboarding users for free! - Sign up now
+        </Marquee>
+      </div>
       <div className={styles.container_web} >
 
         <div className={styles.left_web}>
@@ -103,22 +108,15 @@ const Hero = () => {
 
 
               {/* ------------ INITIAAL CODE --------- */}
-              {loading ?
-                (
-                  <div className={styles.loading}>
-                    <div className={styles.loading1}>
 
-                    </div>
-                  </div>
-                ) :
-                (
-                  <button
-                    onClick={embedContentInNewWindow}
-                    className={styles.start_journey}>
-                    Start Your Journey Now
-                  </button>
-                )
-              }
+              <a href="https://soul-sync-app.applore.in/" target='_blank'>
+                <button
+                  // onClick={embedContentInNewWindow}
+                  className={styles.start_journey}>
+                  Login
+                </button>
+              </a>
+
 
 
 

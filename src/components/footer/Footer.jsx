@@ -12,7 +12,8 @@ import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
-    const phoneNumber = '7678149249';
+    const phoneNumber = '+917876149249';
+
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
     const [embedded, setEmbedded] = useState(false);
@@ -56,13 +57,21 @@ const Footer = () => {
         <>
             <div className={styles.container}>
 
-                <div className={styles.orange_container}>
-                    <button
-                        onClick={embedContentInNewWindow}
-                    >
-                        <div className={styles.start_journey}>Start your journey now !</div>
-                    </button>
-                </div>
+                <a href="https://soul-sync-app.applore.in/" target='_blank'>
+                    <div className={styles.orange_container}>
+                        <button
+                        // onClick={embedContentInNewWindow}
+                        >
+                            {/* <div className={styles.start_journey}>
+                            Login
+                        </div> */}
+
+                            <div className={styles.start_journey}>
+                                Login
+                            </div>
+                        </button>
+                    </div>
+                </a>
 
                 <div className={styles.footer}>
                     <div className={styles.left}>
@@ -93,15 +102,15 @@ const Footer = () => {
                     <Link to='/privacy-policy' target='_blank'>
                         Privacy Policy
                     </Link>
-                    
+
                     <Link to='/terms-and-condition' target='_blank'>
                         Terms & Condition
                     </Link>
-                    
+
                     <Link to='/refund-and-cancellation' target='_blank'>
                         Refund & cancellation policy
                     </Link>
-                    
+
                     <Link to='/contact-us' target='_blank'>
                         Contact Us
                     </Link>

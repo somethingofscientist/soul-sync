@@ -56,7 +56,7 @@ const Steps4 = () => {
             Getting to know you
           </div>
           <div className={styles.sub_heading2}>
-            Start your onboarding journey with a short 5 min form about you and your needs
+            Start your onboarding journey with a short 1 min form about you and your needs
           </div>
         </div>
 

@@ -54,7 +54,7 @@ const About = () => {
                                 <img src={ring_icon} alt="" />
                             </div>
                             <div className={styles.right_animation}>
-                                We tranform your search process by combining the power of data with the personalised approach of our experienced SoulSyncers
+                                We transform your search process by combining the power of data with the personalised approach of our experienced SoulSyncers
                             </div>
                         </div>
                     </Slide>
@@ -98,7 +98,7 @@ const About = () => {
                                 <img src={ring_icon} alt="" />
                             </div>
                             <div className={styles.right_animation}>
-                                We tranform your search process by combining the power of data with the personalised approach of our experienced SoulSyncers
+                                We transform your search process by combining the power of data with the personalised approach of our experienced SoulSyncers
                             </div>
                         </div>
                     </Slide>

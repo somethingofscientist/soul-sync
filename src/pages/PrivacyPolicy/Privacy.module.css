@@ -1,10 +1,25 @@
+.back_button {
+    background-color: var(--soulsync-orange);
+    color: white;
+    padding: 10px 10px;
+    width: max-content;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+.back_button:hover {
+    font-size: 18px;
+}
+
 .container {
     /* background-color: rgb(25, 25, 25); */
     /* color: white; */
     width: 100%;
     line-height: 40px;
     letter-spacing: 1px;
-    padding: 50px 50px 100px 50px;
+    padding: 0px 50px 100px 50px;
 }
 
 .heading {
