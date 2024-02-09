@@ -1,7 +1,9 @@
 .marquee {
     font-size: 20px;
+    padding: 10px 0;
     letter-spacing: 5px;
     color: var(--soulsync-orange);
+    background-color: var(--soulsync-blue);
 }
 
 .loading {

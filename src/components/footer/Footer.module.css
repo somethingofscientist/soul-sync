@@ -105,8 +105,9 @@ button {
 }
 
 .icon {
-    width: 20%;
+    width: 15%;
     display: flex;
+    /* border: 1px solid lime; */
 }
 
 .icon a {
@@ -272,7 +273,8 @@ button {
         padding: 0 0 100px 0;
         text-align: left;
     }
-    .foooter_last a{
+
+    .foooter_last a {
         margin-bottom: 10px;
     }
 }

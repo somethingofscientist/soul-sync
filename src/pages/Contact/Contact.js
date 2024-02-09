@@ -7,11 +7,7 @@ const Contact = () => {
     return (
         <>
 
-            <Link to='/'>
-                <div className={styles.back_button}>
-                    Back To Home
-                </div>
-            </Link>
+
             <div className={styles.container}>
                 <div className={styles.heading}>Contact Us</div>
                 <div className={styles.sub_heading}>
@@ -40,6 +36,11 @@ const Contact = () => {
                     </ol>
                 </div>
             </div>
+            <Link to='/'>
+                <div className={styles.back_button}>
+                    Back To Home
+                </div>
+            </Link>
         </>
     )
 }

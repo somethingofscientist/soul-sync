@@ -92,26 +92,26 @@ const Footer = () => {
                             <a href="https://www.instagram.com/__soulsync__/?igsh=MWF6ajdiZzhoeTJ3Yw%3D%3D" target='_blank'>
                                 <img src={instagram} alt="" />
                             </a>
-                            <a href={whatsappUrl}>
+                            {/* <a href={whatsappUrl}>
                                 <img src={whatsapp} alt="WhatsApp" />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
                 <div className={styles.foooter_last}>
-                    <Link to='/privacy-policy' target='_blank'>
+                    <Link to='/privacy-policy' >
                         Privacy Policy
                     </Link>
 
-                    <Link to='/terms-and-condition' target='_blank'>
+                    <Link to='/terms-and-condition' >
                         Terms & Condition
                     </Link>
 
-                    <Link to='/refund-and-cancellation' target='_blank'>
+                    <Link to='/refund-and-cancellation' >
                         Refund & cancellation policy
                     </Link>
 
-                    <Link to='/contact-us' target='_blank'>
+                    <Link to='/contact-us'>
                         Contact Us
                     </Link>
                 </div>

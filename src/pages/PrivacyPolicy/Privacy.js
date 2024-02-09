@@ -6,11 +6,7 @@ import { Link } from 'react-router-dom';
 const Privacy = () => {
     return (
         <>
-             {/* <Link to='/'>
-                <div className={styles.back_button}>
-                Back To Home
-                </div>
-            </Link> */}
+
             <div className={styles.container}>
 
 
@@ -70,6 +66,11 @@ const Privacy = () => {
 
 
             </div>
+            <Link to='/'>
+                <div className={styles.back_button}>
+                    Back To Home
+                </div>
+            </Link>
         </>
     )
 }

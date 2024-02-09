@@ -1,5 +1,6 @@
 import styles from './Service.module.css';
 import phone from '../../Images/svg/phione.svg'
+import phone2 from '../../Images/svg/phone2.svg'
 import google from '../../Images/google.png'
 import star from '../../Images/StarFour.png'
 import better from '../../Images/better.png'
@@ -116,9 +117,10 @@ const Service = () => {
                                     interval={1500}
                                     showStatus={false}
                                 >
-                                    <img src={phone} alt="" />
-                                    <img src={phone} alt="" />
-                                    <img src={phone} alt="" />
+                                    {/* <img src={phone} alt="" /> */}
+                                    {/* <img src={phone} alt="" /> */}
+                                    <img src={phone} alt="profile1" />
+                                    <img src={phone2} alt="profile2" />
                                 </Carousel>
                             </div>
                         </div>
