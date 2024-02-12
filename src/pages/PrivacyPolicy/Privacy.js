@@ -66,11 +66,11 @@ const Privacy = () => {
 
 
             </div>
-            <Link to='/'>
+            {/* <Link to='/'>
                 <div className={styles.back_button}>
                     Back To Home
                 </div>
-            </Link>
+            </Link> */}
         </>
     )
 }
