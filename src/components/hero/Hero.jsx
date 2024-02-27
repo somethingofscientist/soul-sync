@@ -113,7 +113,8 @@ const Hero = () => {
                 <button
                   // onClick={embedContentInNewWindow}
                   className={styles.start_journey}>
-                  Login
+
+                  Start Your Journey Now
                 </button>
               </a>
 

@@ -118,7 +118,7 @@ const ProblemSolution = () => {
                 Lack of relevant profiles
               </div>
               <div className={styles.subheading2}>
-                Traditional bureaus have limited profiles leading to forced compromise of your preferences
+                Limited profiles leading to forced compromise of your preferences
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@ const ProblemSolution = () => {
             </div>
           </div>
 
-        {/* FOR PHONE VIEW */}
+          {/* FOR PHONE VIEW */}
           <div className={styles.heading_phone}>
             <div className={styles.left_phone}>
               Our Solutions
@@ -154,7 +154,8 @@ const ProblemSolution = () => {
                 In-depth and holistic understanding of your preferences
               </div>
               <div className={styles.subheading2}>
-                15 partner preference parameters are taken to ensure a holistic approach is adopted towards your partner search
+                15 partner preference parameters are taken to ensure a holistic approach towards your partner search
+
               </div>
             </div>
             <div className={styles.orange_line}></div>
@@ -173,7 +174,7 @@ const ProblemSolution = () => {
                 Curated connections powered by data
               </div>
               <div className={styles.subheading2}>
-                Profile recommendations are completely data driven & curated basis your partner preference inputs. We prioritize profile recommendation basis potential  sync rates
+                Profile recommendations are data driven & curated basis your partner preference responses. We prioritize profile recommendation basis potential sync rates
 
 
               </div>
@@ -186,8 +187,7 @@ const ProblemSolution = () => {
           <div className={styles.box}>
             <div className={styles.txt}>
               <div className={styles.subheading1}>
-
-                Seamless online profiles with video snippets
+                Crafted profiles with video reels
               </div>
               <div className={styles.subheading2}>
                 Get to know your potential matches better with our innovative, easy to consume individual profile pages with a video snippet.
@@ -201,7 +201,7 @@ const ProblemSolution = () => {
           <div className={styles.box}>
             <div className={styles.txt}>
               <div className={styles.subheading1}>
-                Superior Service Levels
+                Superior service levels
               </div>
               <div className={styles.subheading2}>
                 Conversational guidance, continuous feedback, review sessions and much more

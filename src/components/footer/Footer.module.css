@@ -20,7 +20,7 @@ button {
 
 .start_journey {
     font-size: 24px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-weight: 700;
     color: var(--soulsync-blue);
     background-color: white;
@@ -96,7 +96,7 @@ button {
 
 .right {
     width: 50%;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-size: 18px;
     display: flex;
     justify-content: end;
@@ -135,7 +135,7 @@ button {
 @media (max-width:1440px) {
     .right {
         width: 50%;
-        text-transform: capitalize;
+        /* text-transform: capitalize; */
         font-size: 18px;
         display: flex;
         justify-content: end;
@@ -254,6 +254,7 @@ button {
     .match_making1 {
         font-size: 16px;
         padding-top: 0px;
+        padding-left: 20px;
         text-align: left !important;
     }
 

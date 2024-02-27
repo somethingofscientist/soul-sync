@@ -319,7 +319,7 @@ const TermsAndService = () => {
 
                 <div className={styles.sub_points_again}>
 
-                    a. In case of any grievance regarding the terms and conditions stipulated herein, the User can contact us at + 91 - 7876149249 and a response shall be sent within 7 days from the receipt of such grievance of the user.
+                    a. In case of any grievance regarding the terms and conditions stipulated herein, the User can contact us at + 91 - 7678149249 and a response shall be sent within 7 days from the receipt of such grievance of the user.
 
                     <br /><br />
                     b. In case of any dispute arising herein, mediation may be chosen as the mode of dispute resolution.The mediation shall be governed by the Delhi State Legal Services Authority rules and procedure and the venue shall be Delhi.
@@ -497,7 +497,7 @@ const TermsAndService = () => {
                 <div className={styles.heading}>17. Contact Information</div>
 
                 <div className={styles.text1}>
-                    If you have any questions, grievances or concerns regarding these Terms and Conditions, please contact us at + 91 - 7876149249 <br /> <br />
+                    If you have any questions, grievances or concerns regarding these Terms and Conditions, please contact us at + 91 - 7678149249 <br /> <br />
 
                     By becoming a member of SoulSync and / or using the Services of the Platform, you unconditionally and irrevocably confirm that you have read and understood the above provisions and agree to abide by them.If you are not agreeing to any of the above terms and conditions, please refrain yourself from registering on the Platform. <br /> <br />
 

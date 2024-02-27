@@ -12,7 +12,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 
 const HomeScreen = () => {
-    const phoneNumber = '+917876149249';
+    const phoneNumber = '+917678149249';
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
     return (
