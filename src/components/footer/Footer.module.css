@@ -104,10 +104,14 @@ button {
     flex-direction: column;
 }
 
+.follow {
+    width: 100px;
+    padding: 20px 0;
+}
+
 .icon {
-    width: 15%;
+    width: 100px;
     display: flex;
-    /* border: 1px solid lime; */
 }
 
 .icon a {
@@ -211,7 +215,7 @@ button {
     }
 
     .right {
-        width: 30%;
+        /* width: 100%; */
         display: flex;
         justify-content: start;
         align-items: start;
@@ -233,9 +237,9 @@ button {
         display: block;
     }
 
-    .right p {
+    .right .follow {
         padding: 10px 0;
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 20px;
         letter-spacing: 0;
         /* background-color: red; */

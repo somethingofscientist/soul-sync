@@ -84,7 +84,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className={styles.right}>
-                        <p>Follow us </p>
+                        <div className={styles.follow}>Follow us </div>
                         <div className={styles.icon}>
                             <a href="https://www.facebook.com/people/SoulSync/61550716416243/?mibextid=ZbWKwL" target='_blank'>
                                 <img src={facebook} alt="" />
