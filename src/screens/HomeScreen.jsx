@@ -13,7 +13,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const HomeScreen = () => {
     const phoneNumber = '+917678149249';
-    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=Hi I am looking to set up a conversation to complete my onboarding journey. Can you let me know when we can have a word?`;
 
     return (
         <>

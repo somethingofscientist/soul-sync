@@ -193,7 +193,7 @@
 
 .flex_button {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .flex_button img {
