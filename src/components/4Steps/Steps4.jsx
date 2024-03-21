@@ -3,7 +3,6 @@ import { Slide } from 'react-reveal';
 
 import styles from './Step4.module.css';
 import phone from '../../Images/mobile1.png'
-import google from '../../Images/google.png'
 import star from '../../Images/StarFour.png'
 import better from '../../Images/better.png'
 import lower from '../../Images/lower.png'

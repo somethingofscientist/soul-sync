@@ -1,7 +1,9 @@
 import styles from './Service.module.css';
 import phone from '../../Images/svg/phione.svg'
 import phone2 from '../../Images/svg/phone2.svg'
-import google from '../../Images/google.png'
+// import google from '../../Images/google.png'
+import play_store from '../../Images/play_store.png'
+import app_store from '../../Images/app_store.png'
 import star from '../../Images/StarFour.png'
 import better from '../../Images/better.png'
 import lower from '../../Images/lower.png'
@@ -17,6 +19,7 @@ import Steps4 from '../4Steps/Steps4'
 import Slide from 'react-reveal/Slide';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from 'react-router-dom';
 
 
 const Service = () => {
@@ -93,8 +96,11 @@ const Service = () => {
                 {/* PHONE SECTION */}
                 <div className={styles.sub_container}>
                     <div className={styles.left}>
-                        Sneak peak of what is in store for you
-                        <img src={google} alt="" />
+                        Sneak peak of what is in store for your
+                        <div className={styles.flex_button}>
+                            <Link to='https://apps.apple.com/in/app/soulsync/id6478204218'><img src={app_store} alt="" /></Link>
+                            <Link to='https://play.google.com/store/apps/details?id=in.applore.soulsync&pcampaignid=web_share'><img src={play_store} alt="" /></Link>
+                        </div>
                     </div>
 
                     {/* <Carousel
@@ -127,7 +133,10 @@ const Service = () => {
                     </Slide>
                     {/* </Carousel> */}
                     <div className={styles.right_mobile}>
-                        <img src={google} alt="" />
+                        <div className={styles.flex_button}>
+                            <Link to='https://apps.apple.com/in/app/soulsync/id6478204218'><img src={app_store} alt="" /></Link>
+                            <Link to='https://play.google.com/store/apps/details?id=in.applore.soulsync&pcampaignid=web_share'><img src={play_store} alt="" /></Link>
+                        </div>
                     </div>
                 </div>
 

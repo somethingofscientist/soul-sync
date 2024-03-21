@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed93d78e.css",
-    "main.js": "/static/js/main.5ac33460.js",
+    "main.css": "/static/css/main.934d03f5.css",
+    "main.js": "/static/js/main.7d5558d8.js",
     "static/js/787.76a0505a.chunk.js": "/static/js/787.76a0505a.chunk.js",
     "static/media/phone2.svg": "/static/media/phone2.c4061cae4e04308871e4e5794bf61459.svg",
     "static/media/phione.svg": "/static/media/phione.2eb8d6708f90460ea3a3b7b29dc8404d.svg",
@@ -15,16 +15,15 @@
     "static/media/match.png": "/static/media/match.ab59aeb1b1bed4b8ea9c.png",
     "static/media/meeting.png": "/static/media/meeting.af95204fc626e646df07.png",
     "static/media/get.png": "/static/media/get.bafdc4dcb2740a526bee.png",
-    "static/media/google.png": "/static/media/google.3039d14329db86ea865f.png",
     "static/media/logo_maain.svg": "/static/media/logo_maain.415caa5113ff39a982b0337c7eb67295.svg",
     "index.html": "/index.html",
     "static/media/tagline_line.svg": "/static/media/tagline_line.f2f038317050d319980ec639da1c6609.svg",
-    "main.ed93d78e.css.map": "/static/css/main.ed93d78e.css.map",
-    "main.5ac33460.js.map": "/static/js/main.5ac33460.js.map",
+    "main.934d03f5.css.map": "/static/css/main.934d03f5.css.map",
+    "main.7d5558d8.js.map": "/static/js/main.7d5558d8.js.map",
     "787.76a0505a.chunk.js.map": "/static/js/787.76a0505a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed93d78e.css",
-    "static/js/main.5ac33460.js"
+    "static/css/main.934d03f5.css",
+    "static/js/main.7d5558d8.js"
   ]
 }

@@ -191,7 +191,14 @@
     margin: auto;
 }
 
+.flex_button {
+    display: flex;
+    justify-content: space-between;
+}
 
+.flex_button img {
+    width: 100%;
+}
 
 @media (max-width:1440px) {
     .circle1 {
@@ -446,6 +453,7 @@
     .sub_container .right_mobile {
         position: relative;
         display: block;
+        width: 100%;
     }
 
     .right_mobile img {
@@ -455,6 +463,10 @@
 
     .left img {
         display: none;
+    }
+
+    .flex_button img {
+        width: 100%;
     }
 
 }
